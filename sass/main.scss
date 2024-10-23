@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 body{
     nav{
         background-image: url(/images/home/image.png);
@@ -72,3 +73,37 @@ body{
     }
 
 }
+=======
+nav{
+    background-image: url(../images/home/img3.png);
+    background-size: 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    ul{
+        display: flex;
+        background-image: #95a3cf;
+       
+        li{
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            background: #707fbd;
+            opacity: 0.9;
+            width: 100%;
+           list-style-type: none;
+
+           a{
+            text-decoration: none;
+            margin: 20px;
+            font-size: 30px;
+            color: #fff;
+    
+
+           }
+           img{
+            margin-left: -600%;
+           }
+        }
+    }
+}
+>>>>>>> master
