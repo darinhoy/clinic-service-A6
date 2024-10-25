@@ -1,12 +1,14 @@
+$text-color: #fff;
+$bg-color: #fff;
 *{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-    color: #fff;
+    color: $text-color;
 
 }
     body{
-        background-color: #2ce2e0;
+        background-color: #98a1cc;
     }
     nav{
         background-image: url(/images/home/img3.png);
@@ -49,6 +51,7 @@
             height: 57vh;
             padding: 10px;
 
+
         }
         h1{
             font-size: 40px;
@@ -78,7 +81,7 @@
         }
     }
     .card{
-            background: #fff;
+            background: $bg-color;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -92,7 +95,7 @@
     }
     main{
         text-align: center;
-        h2{
+        h3{
             font-size: 30px;
         }
         p{
@@ -103,13 +106,13 @@
      
     }
     .picher{
-        background: #fff;
+        background: $bg-color;
         display: flex;
         justify-content: center;
         align-items: center;
         margin: 20px;
         img{
-            background: #fff;
+            background: $bg-color;
             margin: 0 auto;
             padding: 20px;
             width: 98%;
@@ -117,9 +120,78 @@
         }
     }
     .our{
+        font-size: 20px;
         text-align: center;
+        h3{
+            font-size: 30px;
+        }
         p{
             text-align: justify;
             margin-left:    350px;
+        }
+    }
+    h3{
+        text-align: center;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .our-value{
+        display: flex;
+        justify-content: center;
+        
+        .cards{
+            margin: 20px;
+            h4{
+                text-align: center;
+            }
+            img{
+          
+                width: 100px;
+                background: $bg-color;
+                padding: 10px;
+            }
+            
+        }
+       
+    }
+    .team{
+        text-align: center;
+    }
+    .cardes{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        .carda{
+            background-color: $bg-color;
+            width: 250px;
+            height: 55vh;
+            margin: 20px;
+            border-radius: 20px ;
+         
+            img{
+                margin-top: 10px;
+                width: 200px;
+                height: 200px;
+                border-radius: 100%;
+                object-fit: cover;
+            }
+            h2{
+                margin-top: 20px;
+                color: #000;
+                
+            }
+           button{
+            margin-top: 20px;
+            padding: 10px;
+            width: 150px;
+            font-size: 20px;
+            border-radius: 10px;
+            background: #2a89a3;
+            border: none;
+          
+           }
+            
         }
     }
