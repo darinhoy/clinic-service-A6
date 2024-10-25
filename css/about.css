@@ -6,7 +6,7 @@
 
 nav {
   flex: 0.5;
-  background: #0b97f4;
+  background: rgba(5, 5, 114, 0.562);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -18,7 +18,7 @@ ul {
 }
 
 ul li {
-  padding: 15px;
+  margin-right: 50px;
 }
 
 ul li a {
