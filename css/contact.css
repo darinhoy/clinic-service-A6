@@ -204,6 +204,7 @@ ul li a {
 .grid-container-footer .time-work {
   display: grid;
   row-gap: 20px;
+  margin: 10px;
 }
 .grid-container-footer .get-in-toch {
   display: grid;
