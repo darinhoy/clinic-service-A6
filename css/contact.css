@@ -90,9 +90,10 @@ ul li a {
 .check-up .img-check {
   margin: 20px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .check-up .img-check .pic-1 {
+  margin: 20px;
   font-weight: bold;
   font-size: 20px;
 }
@@ -129,12 +130,15 @@ ul li a {
 .additional-service .cards {
   margin-top: 20px;
   display: flex;
-  justify-content: space-around;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .additional-service .cards .card img {
-  background: #dbcfcf;
-  width: 250px;
-  border-radius: 10px;
+  margin: 20px;
+  width: 300px;
+}
+.additional-service .cards .card p {
+  margin-top: 20px;
 }
 
 .list {
@@ -159,12 +163,13 @@ ul li a {
 }
 
 .parnership h1 {
-  text-align: center;
   margin-top: 20px;
-}
-.parnership h1 strong {
-  margin-top: 60px;
   text-align: center;
+}
+.parnership p {
+  margin-top: 20px;
+  margin: 20px;
+  text-align: justify;
 }
 
 .logo-partnership {
@@ -196,18 +201,34 @@ ul li a {
   margin: 10px;
   border-radius: 5px;
 }
+.grid-container-footer .logo-footer .lg-footer img {
+  margin-top: 8px;
+  width: 60px;
+  margin-left: 15px;
+  border-radius: 100%;
+}
 .grid-container-footer .quick-link {
   display: grid;
-  row-gap: 20px;
+  row-gap: 10px;
   margin: 10px;
 }
 .grid-container-footer .time-work {
   display: grid;
-  row-gap: 20px;
+  row-gap: 10px;
   margin: 10px;
 }
 .grid-container-footer .get-in-toch {
   display: grid;
-  row-gap: 20px;
+  row-gap: 10px;
   margin: 10px;
+}
+.grid-container-footer .get-in-toch .bt-footer {
+  border: none;
+  font-weight: bold;
+  color: white;
+  background: #2be3e0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  margin-left: -1px;
 }/*# sourceMappingURL=contact.css.map */
