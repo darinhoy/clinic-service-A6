@@ -227,15 +227,27 @@ h3 {
   row-gap: 10px;
   margin: 10px;
 }
+.grid-container-footer .quick-link h3 {
+  margin-right: 210px;
+  font-size: 20px;
+}
 .grid-container-footer .time-work {
   display: grid;
   row-gap: 10px;
   margin: 10px;
 }
+.grid-container-footer .time-work h3 {
+  margin-right: 210px;
+  font-size: 20px;
+}
 .grid-container-footer .get-in-toch {
   display: grid;
   row-gap: 10px;
   margin: 10px;
+}
+.grid-container-footer .get-in-toch h3 {
+  margin-right: 200px;
+  font-size: 20px;
 }
 .grid-container-footer .get-in-toch .bt-footer {
   border: none;
