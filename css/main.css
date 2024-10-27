@@ -1,3 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #98a1cc;
+}
+
 nav {
   background-image: url(/images/home/img3.png);
   background-repeat: no-repeat;
@@ -5,7 +16,7 @@ nav {
   height: 70vh;
 }
 nav ul {
-  background-color: #2a89a3;
+  background-color: rgb(38, 139, 221);
   opacity: 0.9;
   display: flex;
   justify-content: flex-end;
@@ -29,7 +40,6 @@ nav ul li a {
   text-decoration: none;
   margin-left: 40px;
   margin-right: 40px;
-  color: #fff;
 }
 nav .paragrab {
   margin: 0;
@@ -102,7 +112,7 @@ main p {
   margin: 0 auto;
   padding: 20px;
   width: 98%;
-  height: 80vh;
+  height: 50vh;
 }
 
 .our {
