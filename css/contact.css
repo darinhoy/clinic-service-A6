@@ -183,26 +183,12 @@ nav ul li a:hover, nav ul a a:hover {
   border-radius: 100%;
 }
 .grid-container-footer .quick-link {
-  display: grid;
-  row-gap: 10px;
   margin: 10px;
 }
 .grid-container-footer .time-work {
-  display: grid;
-  row-gap: 10px;
   margin: 10px;
 }
 .grid-container-footer .get-in-toch {
-  display: grid;
-  row-gap: 10px;
-  margin: 10px;
-}
-.grid-container-footer .get-in-toch .bt-footer {
-  border: none;
-  font-weight: bold;
-  color: white;
-  background: #2be3e0;
-  padding: 10px;
   margin: 10px;
   border-radius: 5px;
   margin-left: -1px;
