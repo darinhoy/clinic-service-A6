@@ -1,0 +1,53 @@
+.grid-container-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    margin-top: 20px;
+    background:     #438eac;
+    color: white;
+    width: 100%;
+    .logo-footer{
+
+        .button-footer{
+            border: none;
+            font-weight: bold;
+            color: white;
+            background: #2be3e0;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .lg-footer img{
+            margin-top: 8px;
+            width: 60px;
+            margin-left: 15px;
+            border-radius:100%;
+        }
+    }
+    .quick-link{
+        display: grid;
+        row-gap: 10px;
+        margin: 10px;
+    }
+    .time-work{
+        display: grid;
+        row-gap: 10px;
+        margin: 10px;
+    }
+    .get-in-toch{
+        display: grid;
+        row-gap: 10px;
+        margin: 10px;
+
+        .bt-footer{
+            border: none;
+            font-weight: bold;
+            color: white;
+            background: #2be3e0;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            margin-left: -1px;
+        }
+    }
+}

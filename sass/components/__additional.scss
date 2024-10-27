@@ -1,0 +1,19 @@
+.additional-service{
+    margin-top: 20px;
+    text-align: center;
+    .cards{
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        .card img{
+            margin: 20px;
+            width: 300px;
+        }
+        .card h4{
+            margin-bottom: 20px;
+            padding: 20px;
+        }
+    }
+    
+}

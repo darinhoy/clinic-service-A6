@@ -1,0 +1,14 @@
+.button-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .center-button{
+        border: none;
+        font-weight: bold;
+        color: white;
+        background: #2be3e0;
+        padding: 15px;
+        border-radius: 10px;
+    }
+}

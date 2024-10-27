@@ -1,13 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;
 }
 body{
-    background: #f4f4f4;
+    background: #69a5bd;
+    color: white;
+    font-family: sans-serif;
 }
 @import"components/_variable";
 @import"components/_navbar";
+@import"components/_container";
+@import"components/_check";
+@import"components/_button-1";
+@import"components/_additional";
+@import"components/_footer";
 nav{
     background-image: url(../images/home/image.png);
     background-repeat: no-repeat;
