@@ -1,6 +1,6 @@
 // Responsive-Mobile
 
-@media(max-width: 480px) {
+@media(max-width:480px){
     nav {
         background: $bg-navbar;
        @include text-center-nav;
@@ -17,6 +17,7 @@
         width: 100%;
         padding: 7px;
         opacity: 0.8;
+        font-size: 10px;
         li{
             padding: 15px;
             img{
