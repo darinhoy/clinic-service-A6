@@ -51,17 +51,21 @@
         }
     }
     .get-in-toch{
+        button{
+            color: #000;
+        }
         margin-top: 35px;
         h3{
             padding-right: 55px;
         }
         .toch{
             margin: 10px;
+        
         }
     }
     #active{
         background: hsl(179, 77%, 53%);
         padding: 10px;
     }
-
+    
 

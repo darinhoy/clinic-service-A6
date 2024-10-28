@@ -233,6 +233,9 @@ body {
 .get-in-toch {
   margin-top: 35px;
 }
+.get-in-toch button {
+  color: #000;
+}
 .get-in-toch h3 {
   padding-right: 55px;
 }
