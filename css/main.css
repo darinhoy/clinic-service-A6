@@ -89,47 +89,4 @@ ul li a {
   border-radius: 100%;
   margin-left: 40px;
   margin-top: 30px;
-}
-
-@media (max-width: 480px) {
-  nav {
-    background: #808cc2;
-    display: flex;
-    justify-content: space-between​​​​;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-  ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    background: #808cc2;
-    height: 10vh;
-    width: 100%;
-    padding: 7px;
-    opacity: 0.8;
-  }
-  ul li {
-    padding: 15px;
-  }
-  ul li img {
-    width: 70px;
-    margin-right: 850px;
-    margin-top: -25px;
-  }
-  ul li a {
-    font-size: px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  .service h1 {
-    position: absolute;
-    top: 35%;
-    background: #808cc2;
-    padding: 20px;
-    left: 20px;
-    opacity: 0.8;
-  }
 }/*# sourceMappingURL=main.css.map */
