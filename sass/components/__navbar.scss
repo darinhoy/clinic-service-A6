@@ -18,9 +18,9 @@ ul {
     li{
         padding: 15px;
         img{
-            width: 60px;
+            width: 70px;
             margin-right: 850px;     
-            margin-top: -20px;       
+            margin-top: -25px;       
         }
     }
     li a {
@@ -82,4 +82,47 @@ ul {
         margin-top: 30px;
         }
 }
-@import"__responsive";
+
+@media(max-width: 480px) {
+    @import"__mixins";
+nav {
+    background: $bg-navbar;
+   @include text-center-nav;
+   a:hover{
+    text-decoration: underline;
+}
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    background:$bg-navbar ;
+    height: 10vh;
+    width: 100%;
+    padding: 7px;
+    opacity: 0.8;
+    li{
+        padding: 15px;
+        img{
+            width: 70px;
+            margin-right: 850px;     
+            margin-top: -25px;       
+        }
+    }
+    li a {
+        font-size: px;
+        font-weight: bold;
+        color: $color-nav;
+        text-decoration: none;
+
+    }
+}
+.service h1{
+    position: absolute ;
+    top: 35%;
+    background: #808cc2;
+    padding: 20px;
+    left: 20px;
+    opacity: 0.8;
+}
+}
