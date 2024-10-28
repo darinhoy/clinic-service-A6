@@ -5,14 +5,13 @@
 }
 
 body {
-  background: #69a5bd;
+  background: #5c6594;
   color: white;
   font-family: sans-serif;
 }
 
 nav {
-  flex: 0.5;
-  background: #98b2d8;
+  background: #808cc2;
   display: flex;
   justify-content: space-between​​​​;
 }
@@ -24,16 +23,20 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  background: #5699b4;
+  background: #808cc2;
   height: 10vh;
   width: 100%;
+  padding: 7px;
   opacity: 0.8;
 }
-
 ul li {
   padding: 15px;
 }
-
+ul li img {
+  width: 60px;
+  margin-right: 850px;
+  margin-top: -20px;
+}
 ul li a {
   font-size: 20px;
   font-weight: bold;
@@ -41,14 +44,10 @@ ul li a {
   text-decoration: none;
 }
 
-.logo {
-  margin-left: -1150%;
-}
-
 .service h1 {
   position: absolute;
   top: 35%;
-  background: #5699b4;
+  background: #808cc2;
   padding: 20px;
   left: 20px;
   opacity: 0.8;
@@ -79,7 +78,7 @@ ul li a {
   margin-top: 20px;
   text-align: center;
 }
-.parnership p {
+.parnership .par-p {
   margin-top: 20px;
   margin: 20px;
   text-align: justify;
@@ -87,15 +86,49 @@ ul li a {
 
 .logo-partnership {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .logo-partnership .logo-1 img {
-  width: 200px;
+  width: 100px;
   border-radius: 100%;
   margin-left: 40px;
   margin-top: 30px;
 }
 
+@media (max-width: 480px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    background: #808cc2;
+    height: 10vh;
+    width: 100%;
+    padding: 7px;
+    opacity: 0.8;
+  }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-right: 98px;
+    margin-top: -20px;
+  }
+  ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  .service h1 {
+    position: absolute;
+    top: 25%;
+    background: #808cc2;
+    padding: 20px;
+    left: 20px;
+    opacity: 0.8;
+  }
+}
 .container h1 {
   text-align: center;
   margin-top: 20px;
@@ -143,6 +176,7 @@ ul li a {
   margin: 20px;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 .check-up .img-check .pic-1 {
   margin: 20px;
@@ -199,7 +233,7 @@ ul li a {
   grid-template-columns: repeat(4, 1fr);
   padding: 10px;
   margin-top: 20px;
-  background: #438eac;
+  background: #232b52;
   color: white;
   width: 100%;
 }
@@ -211,12 +245,14 @@ ul li a {
   padding: 10px;
   margin: 10px;
   border-radius: 5px;
+  margin-left: 20px;
 }
 .grid-container-footer .logo-footer .lg-footer img {
-  margin-top: 8px;
-  width: 60px;
+  margin-bottom: 10px;
+  width: 90px;
   margin-left: 15px;
   border-radius: 100%;
+  overflow: hidden;
 }
 .grid-container-footer .quick-link {
   display: grid;
@@ -245,6 +281,7 @@ ul li a {
 }
 
 nav {
+  width: 100%;
   background-image: url(../images/home/image.png);
   background-repeat: no-repeat;
   background-size: 100%;

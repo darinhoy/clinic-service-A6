@@ -6,8 +6,7 @@
 }
 
 nav {
-  flex: 0.5;
-  background: #98b2d8;
+  background: #808cc2;
   display: flex;
   justify-content: space-between​​​​;
 }
@@ -19,16 +18,20 @@ ul {
   list-style-type: none;
   display: flex;
   justify-content: flex-end;
-  background: #5699b4;
+  background: #808cc2;
   height: 10vh;
   width: 100%;
+  padding: 7px;
   opacity: 0.8;
 }
-
 ul li {
   padding: 15px;
 }
-
+ul li img {
+  width: 60px;
+  margin-right: 850px;
+  margin-top: -20px;
+}
 ul li a {
   font-size: 20px;
   font-weight: bold;
@@ -36,14 +39,10 @@ ul li a {
   text-decoration: none;
 }
 
-.logo {
-  margin-left: -1150%;
-}
-
 .service h1 {
   position: absolute;
   top: 35%;
-  background: #5699b4;
+  background: #808cc2;
   padding: 20px;
   left: 20px;
   opacity: 0.8;
@@ -74,7 +73,7 @@ ul li a {
   margin-top: 20px;
   text-align: center;
 }
-.parnership p {
+.parnership .par-p {
   margin-top: 20px;
   margin: 20px;
   text-align: justify;
@@ -82,11 +81,46 @@ ul li a {
 
 .logo-partnership {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .logo-partnership .logo-1 img {
-  width: 200px;
+  width: 100px;
   border-radius: 100%;
   margin-left: 40px;
   margin-top: 30px;
+}
+
+@media (max-width: 480px) {
+  ul {
+    list-style-type: none;
+    display: flex;
+    background: #808cc2;
+    height: 10vh;
+    width: 100%;
+    padding: 7px;
+    opacity: 0.8;
+  }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-right: 98px;
+    margin-top: -20px;
+  }
+  ul li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  .service h1 {
+    position: absolute;
+    top: 25%;
+    background: #808cc2;
+    padding: 20px;
+    left: 20px;
+    opacity: 0.8;
+  }
 }/*# sourceMappingURL=main.css.map */
