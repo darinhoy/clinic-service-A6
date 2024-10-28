@@ -116,6 +116,7 @@ ul li a {
     text-decoration: none;
   }
   .service h1 {
+    font-size: 20px;
     position: absolute;
     top: 25%;
     background: #808cc2;

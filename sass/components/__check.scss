@@ -26,3 +26,36 @@
         }
     }
 }
+
+@media(main-width:480px) {
+    .check-up{
+        h1{
+            margin-top: 70px;
+            text-align: center;
+            font-size: 20px;
+        }
+        .img-check{
+            margin: 20px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+    
+            .pic-1{
+                margin: 20px;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            img{
+                width: 300px;
+                height: 200px;
+                object-fit: cover;
+                border-radius: 10px;
+            }
+            p{
+                margin-left: 70px;
+                margin-top: 10px;
+                font-size: 16px;
+            }
+        }
+    }
+}
