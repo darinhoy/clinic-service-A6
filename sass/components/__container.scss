@@ -41,51 +41,5 @@
         margin-right: 30px;
     }
 }
+@import"__responsive";
 
-@media(max-width: 480px){
-    .container{
-        h1{
-            text-align: center;
-            margin-top: 20px;
-            font-size: 20px;
-        }
-        .chioes{
-            margin: 20px;
-            display: flex;
-            justify-content: space-around;
-           
-    
-            .choes-1{
-                // font-weight: bold;
-                font-size: 15px;
-            }
-            .choes-2{
-                margin-left: 2%;
-                background: #fff;
-                color: black;
-                padding: 10px;
-                border-radius: 100%;
-            }
-            .choes-3{
-                margin-left: 5%;
-                background: #fff;
-                color: black;
-                padding: 10px;
-                border-radius: 100%;
-            }
-            .choes-4{
-                margin-left: 3%;
-                background: #fff;
-                color: black;
-                padding: 10px;
-                border-radius: 100%;
-            }
-        }
-        .line{
-            border-bottom:2px solid white ;
-            margin-left: 30px;
-            margin-right: 30px;
-        }
-    }
-    
-}
