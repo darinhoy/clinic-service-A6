@@ -10,510 +10,6 @@ body {
   font-family: sans-serif;
 }
 
-@media (max-width: 480px) {
-  nav {
-    background: #808cc2;
-    display: flex;
-    justify-content: space-between​​​​;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-  ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: flex-end;
-    background: #808cc2;
-    height: 10vh;
-    width: 100%;
-    padding: 7px;
-    opacity: 0.8;
-  }
-  ul li {
-    padding: 15px;
-  }
-  ul li img {
-    width: 10px;
-    margin-right: 10px;
-    margin-top: -25px;
-  }
-  ul li a {
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  .service h1 {
-    position: absolute;
-    top: 35%;
-    background: #808cc2;
-    padding: 20px;
-    left: 20px;
-    opacity: 0.8;
-  }
-  .list {
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-    font-size: 20px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 40%;
-  }
-  .grid-container .item span {
-    margin-left: 20px;
-    font-size: 5px;
-  }
-  .parnership h1 {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .parnership .par-p {
-    margin-top: 20px;
-    margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .logo-partnership .logo-1 img {
-    width: 100px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
-  }
-}
-@media (max-width: 480px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .container h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  .container .chioes {
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .container .chioes .choes-1 {
-    font-size: 15px;
-  }
-  .container .chioes .choes-2 {
-    margin-left: 2%;
-    background: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 100%;
-  }
-  .container .chioes .choes-3 {
-    margin-left: 5%;
-    background: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 100%;
-  }
-  .container .chioes .choes-4 {
-    margin-left: 3%;
-    background: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 100%;
-  }
-  .container .line {
-    border-bottom: 2px solid white;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media (max-width: 480px) {
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 22%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .parnership .par-p {
-    font-size: 10px;
-    margin-top: 20px;
-    margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
-  }
-}
-@media (max-width: 480px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    width: 100%;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    font-size: 10px;
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    font-size: 12px;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 50px;
-    margin-left: 25px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    font-size: 10px;
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    font-size: 3px;
-    border-radius: 5px;
-    margin-left: -1px;
-  }
-}
-@media (max-width: 768px) {
-  ul {
-    list-style-type: none;
-    display: flex;
-    background: #808cc2;
-    height: 10vh;
-    width: 100%;
-    padding: 7px;
-    opacity: 0.8;
-  }
-  ul li {
-    padding: 15px;
-  }
-  ul li img {
-    width: 50px;
-    margin-right: 380px;
-    margin-top: -20px;
-  }
-  ul li a {
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  .service h1 {
-    font-size: 20px;
-    position: absolute;
-    top: 25%;
-    background: #808cc2;
-    margin-top: 30px;
-    padding: 20px;
-    left: 20px;
-    opacity: 0.8;
-  }
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 38%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .parnership .par-p {
-    font-size: 13px;
-    margin-top: 20px;
-    margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .container h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 20px;
-  }
-  .container .chioes {
-    margin: 20px;
-    display: flex;
-    justify-content: space-around;
-  }
-  .container .chioes .choes-1 {
-    font-size: 14px;
-  }
-  .container .chioes .choes-2 {
-    margin-left: 2%;
-    background: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 100%;
-  }
-  .container .chioes .choes-3 {
-    margin-left: 5%;
-    background: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 100%;
-  }
-  .container .chioes .choes-4 {
-    margin-left: 3%;
-    background: #fff;
-    color: black;
-    padding: 10px;
-    border-radius: 100%;
-  }
-  .container .line {
-    border-bottom: 2px solid white;
-    margin-left: 30px;
-    margin-right: 30px;
-  }
-}
-@media (max-width: 768px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 15px;
-  }
-}
-@media (max-width: 768px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    font-size: 12px;
-    width: 100%;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 20px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 12px;
-  }
-}
 nav {
   background: #808cc2;
   display: flex;
@@ -526,19 +22,21 @@ nav a:hover {
 ul {
   list-style-type: none;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   background: #808cc2;
   height: 10vh;
   width: 100%;
   padding: 7px;
   opacity: 0.8;
 }
+ul .hello {
+  display: flex;
+}
 ul li {
   padding: 15px;
 }
 ul li img {
   width: 70px;
-  margin-right: 850px;
   margin-top: -25px;
 }
 ul li a {
@@ -612,38 +110,42 @@ ul li a {
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hello {
+    display: flex;
   }
-  ul li img {
-    width: 10px;
-    margin-right: 10px;
-    margin-top: -25px;
-  }
-  ul li a {
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-top: -20px;
+  }
   .service h1 {
-    position: absolute;
-    top: 35%;
+    font-size: 15px;
     background: #808cc2;
     padding: 20px;
-    left: 20px;
     opacity: 0.8;
+    margin-top: -30px;
   }
   .list {
     margin-top: 20px;
     text-decoration: underline;
     margin-left: 70px;
+  }
+  .list h1 {
     font-size: 20px;
   }
   .grid-container {
@@ -659,13 +161,15 @@ ul li a {
   }
   .grid-container .item span {
     margin-left: 20px;
-    font-size: 5px;
+    font-size: 10px;
   }
   .parnership h1 {
+    font-size: 20px;
     margin-top: 20px;
     text-align: center;
   }
   .parnership .par-p {
+    font-size: 5px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -675,71 +179,18 @@ ul li a {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .logo-partnership .logo-1 {
+    display: flex;
+  }
   .logo-partnership .logo-1 img {
-    width: 100px;
+    width: 20px;
     border-radius: 100%;
     margin-left: 40px;
-    margin-top: 30px;
   }
-}
-@media (max-width: 480px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -747,7 +198,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -775,53 +226,56 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 480px) {
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 22%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
+  .check-up h1 {
+    font-size: 25px;
+    margin-top: 70px;
     text-align: center;
   }
-  .parnership .par-p {
-    font-size: 10px;
-    margin-top: 20px;
+  .check-up .img-check {
     margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
+  .check-up .img-check .pic-1 {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
   }
-}
-@media (max-width: 480px) {
+  .check-up .img-check img {
+    width: 300px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .check-up .img-check p {
+    font-style: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .additional-service {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .additional-service h1 {
+    font-size: 20px;
+  }
+  .additional-service .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .additional-service .cards .card img {
+    margin: 20px;
+    width: 300px;
+  }
+  .additional-service .cards .card h4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
   .grid-container-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -830,72 +284,83 @@ ul li a {
     background: #232b52;
     color: white;
     width: 100%;
-    font-size: 12px;
   }
   .grid-container-footer .logo-footer .button-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
-    font-size: 12px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     margin-left: 20px;
+    font-size: 10px;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     margin-bottom: 10px;
-    width: 50px;
-    margin-left: 25px;
+    width: 60px;
+    margin-left: 15px;
     border-radius: 100%;
     overflow: hidden;
   }
   .grid-container-footer .quick-link {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .time-work {
     display: grid;
     row-gap: 10px;
+    font-size: 10px;
+    margin: 10px;
   }
   .grid-container-footer .get-in-toch {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
     padding: 10px;
     margin: 10px;
-    font-size: 3px;
     border-radius: 5px;
     margin-left: -1px;
+    font-size: 10px;
   }
 }
 @media (max-width: 768px) {
+  nav {
+    background: #808cc2;
+    display: flex;
+    justify-content: space-between​​​​;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
   ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hi img {
+    width: 55px;
+    margin-left: 1px;
   }
-  ul li img {
-    width: 50px;
-    margin-right: 380px;
-    margin-top: -20px;
+  ul .hello {
+    display: flex;
   }
-  ul li a {
-    font-size: 20px;
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -903,9 +368,8 @@ ul li a {
   .service h1 {
     font-size: 20px;
     position: absolute;
-    top: 25%;
+    top: 35%;
     background: #808cc2;
-    margin-top: 30px;
     padding: 20px;
     left: 20px;
     opacity: 0.8;
@@ -925,11 +389,10 @@ ul li a {
   }
   .grid-container .item {
     display: flex;
-    margin-left: 38%;
+    margin-left: 35%;
   }
   .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .parnership h1 {
     font-size: 20px;
@@ -937,7 +400,7 @@ ul li a {
     text-align: center;
   }
   .parnership .par-p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -948,17 +411,15 @@ ul li a {
     flex-wrap: wrap;
   }
   .logo-partnership .logo-1 img {
-    width: 60px;
+    width: 100px;
     border-radius: 100%;
     margin-left: 40px;
     margin-top: 30px;
   }
-}
-@media (max-width: 768px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -966,7 +427,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -994,12 +455,10 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 768px) {
   .check-up h1 {
+    font-size: 20px;
     margin-top: 70px;
     text-align: center;
-    font-size: 20px;
   }
   .check-up .img-check {
     margin: 20px;
@@ -1020,12 +479,10 @@ ul li a {
     border-radius: 10px;
   }
   .check-up .img-check p {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
     font-size: 15px;
   }
-}
-@media (max-width: 768px) {
   .additional-service {
     margin-top: 20px;
     text-align: center;
@@ -1044,64 +501,9 @@ ul li a {
     width: 300px;
   }
   .additional-service .cards .card h4 {
+    font-size: 14px;
     margin-bottom: 20px;
     padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    font-size: 12px;
-    width: 100%;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 20px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 12px;
   }
 }
 .container h1 {
@@ -1155,38 +557,42 @@ ul li a {
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hello {
+    display: flex;
   }
-  ul li img {
-    width: 10px;
-    margin-right: 10px;
-    margin-top: -25px;
-  }
-  ul li a {
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-top: -20px;
+  }
   .service h1 {
-    position: absolute;
-    top: 35%;
+    font-size: 15px;
     background: #808cc2;
     padding: 20px;
-    left: 20px;
     opacity: 0.8;
+    margin-top: -30px;
   }
   .list {
     margin-top: 20px;
     text-decoration: underline;
     margin-left: 70px;
+  }
+  .list h1 {
     font-size: 20px;
   }
   .grid-container {
@@ -1202,13 +608,15 @@ ul li a {
   }
   .grid-container .item span {
     margin-left: 20px;
-    font-size: 5px;
+    font-size: 10px;
   }
   .parnership h1 {
+    font-size: 20px;
     margin-top: 20px;
     text-align: center;
   }
   .parnership .par-p {
+    font-size: 5px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -1218,71 +626,18 @@ ul li a {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .logo-partnership .logo-1 {
+    display: flex;
+  }
   .logo-partnership .logo-1 img {
-    width: 100px;
+    width: 20px;
     border-radius: 100%;
     margin-left: 40px;
-    margin-top: 30px;
   }
-}
-@media (max-width: 480px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -1290,7 +645,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -1318,53 +673,56 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 480px) {
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 22%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
+  .check-up h1 {
+    font-size: 25px;
+    margin-top: 70px;
     text-align: center;
   }
-  .parnership .par-p {
-    font-size: 10px;
-    margin-top: 20px;
+  .check-up .img-check {
     margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
+  .check-up .img-check .pic-1 {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
   }
-}
-@media (max-width: 480px) {
+  .check-up .img-check img {
+    width: 300px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .check-up .img-check p {
+    font-style: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .additional-service {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .additional-service h1 {
+    font-size: 20px;
+  }
+  .additional-service .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .additional-service .cards .card img {
+    margin: 20px;
+    width: 300px;
+  }
+  .additional-service .cards .card h4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
   .grid-container-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1373,72 +731,83 @@ ul li a {
     background: #232b52;
     color: white;
     width: 100%;
-    font-size: 12px;
   }
   .grid-container-footer .logo-footer .button-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
-    font-size: 12px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     margin-left: 20px;
+    font-size: 10px;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     margin-bottom: 10px;
-    width: 50px;
-    margin-left: 25px;
+    width: 60px;
+    margin-left: 15px;
     border-radius: 100%;
     overflow: hidden;
   }
   .grid-container-footer .quick-link {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .time-work {
     display: grid;
     row-gap: 10px;
+    font-size: 10px;
+    margin: 10px;
   }
   .grid-container-footer .get-in-toch {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
     padding: 10px;
     margin: 10px;
-    font-size: 3px;
     border-radius: 5px;
     margin-left: -1px;
+    font-size: 10px;
   }
 }
 @media (max-width: 768px) {
+  nav {
+    background: #808cc2;
+    display: flex;
+    justify-content: space-between​​​​;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
   ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hi img {
+    width: 55px;
+    margin-left: 1px;
   }
-  ul li img {
-    width: 50px;
-    margin-right: 380px;
-    margin-top: -20px;
+  ul .hello {
+    display: flex;
   }
-  ul li a {
-    font-size: 20px;
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -1446,9 +815,8 @@ ul li a {
   .service h1 {
     font-size: 20px;
     position: absolute;
-    top: 25%;
+    top: 35%;
     background: #808cc2;
-    margin-top: 30px;
     padding: 20px;
     left: 20px;
     opacity: 0.8;
@@ -1468,11 +836,10 @@ ul li a {
   }
   .grid-container .item {
     display: flex;
-    margin-left: 38%;
+    margin-left: 35%;
   }
   .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .parnership h1 {
     font-size: 20px;
@@ -1480,7 +847,7 @@ ul li a {
     text-align: center;
   }
   .parnership .par-p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -1491,17 +858,15 @@ ul li a {
     flex-wrap: wrap;
   }
   .logo-partnership .logo-1 img {
-    width: 60px;
+    width: 100px;
     border-radius: 100%;
     margin-left: 40px;
     margin-top: 30px;
   }
-}
-@media (max-width: 768px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -1509,7 +874,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -1537,12 +902,10 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 768px) {
   .check-up h1 {
+    font-size: 20px;
     margin-top: 70px;
     text-align: center;
-    font-size: 20px;
   }
   .check-up .img-check {
     margin: 20px;
@@ -1563,12 +926,10 @@ ul li a {
     border-radius: 10px;
   }
   .check-up .img-check p {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
     font-size: 15px;
   }
-}
-@media (max-width: 768px) {
   .additional-service {
     margin-top: 20px;
     text-align: center;
@@ -1587,64 +948,9 @@ ul li a {
     width: 300px;
   }
   .additional-service .cards .card h4 {
+    font-size: 14px;
     margin-bottom: 20px;
     padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    font-size: 12px;
-    width: 100%;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 20px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 12px;
   }
 }
 .check-up h1 {
@@ -1686,38 +992,42 @@ ul li a {
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hello {
+    display: flex;
   }
-  ul li img {
-    width: 10px;
-    margin-right: 10px;
-    margin-top: -25px;
-  }
-  ul li a {
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-top: -20px;
+  }
   .service h1 {
-    position: absolute;
-    top: 35%;
+    font-size: 15px;
     background: #808cc2;
     padding: 20px;
-    left: 20px;
     opacity: 0.8;
+    margin-top: -30px;
   }
   .list {
     margin-top: 20px;
     text-decoration: underline;
     margin-left: 70px;
+  }
+  .list h1 {
     font-size: 20px;
   }
   .grid-container {
@@ -1733,13 +1043,15 @@ ul li a {
   }
   .grid-container .item span {
     margin-left: 20px;
-    font-size: 5px;
+    font-size: 10px;
   }
   .parnership h1 {
+    font-size: 20px;
     margin-top: 20px;
     text-align: center;
   }
   .parnership .par-p {
+    font-size: 5px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -1749,71 +1061,18 @@ ul li a {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .logo-partnership .logo-1 {
+    display: flex;
+  }
   .logo-partnership .logo-1 img {
-    width: 100px;
+    width: 20px;
     border-radius: 100%;
     margin-left: 40px;
-    margin-top: 30px;
   }
-}
-@media (max-width: 480px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -1821,7 +1080,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -1849,53 +1108,56 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 480px) {
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 22%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
+  .check-up h1 {
+    font-size: 25px;
+    margin-top: 70px;
     text-align: center;
   }
-  .parnership .par-p {
-    font-size: 10px;
-    margin-top: 20px;
+  .check-up .img-check {
     margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
+  .check-up .img-check .pic-1 {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
   }
-}
-@media (max-width: 480px) {
+  .check-up .img-check img {
+    width: 300px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .check-up .img-check p {
+    font-style: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .additional-service {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .additional-service h1 {
+    font-size: 20px;
+  }
+  .additional-service .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .additional-service .cards .card img {
+    margin: 20px;
+    width: 300px;
+  }
+  .additional-service .cards .card h4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
   .grid-container-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -1904,72 +1166,83 @@ ul li a {
     background: #232b52;
     color: white;
     width: 100%;
-    font-size: 12px;
   }
   .grid-container-footer .logo-footer .button-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
-    font-size: 12px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     margin-left: 20px;
+    font-size: 10px;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     margin-bottom: 10px;
-    width: 50px;
-    margin-left: 25px;
+    width: 60px;
+    margin-left: 15px;
     border-radius: 100%;
     overflow: hidden;
   }
   .grid-container-footer .quick-link {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .time-work {
     display: grid;
     row-gap: 10px;
+    font-size: 10px;
+    margin: 10px;
   }
   .grid-container-footer .get-in-toch {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
     padding: 10px;
     margin: 10px;
-    font-size: 3px;
     border-radius: 5px;
     margin-left: -1px;
+    font-size: 10px;
   }
 }
 @media (max-width: 768px) {
+  nav {
+    background: #808cc2;
+    display: flex;
+    justify-content: space-between​​​​;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
   ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hi img {
+    width: 55px;
+    margin-left: 1px;
   }
-  ul li img {
-    width: 50px;
-    margin-right: 380px;
-    margin-top: -20px;
+  ul .hello {
+    display: flex;
   }
-  ul li a {
-    font-size: 20px;
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -1977,9 +1250,8 @@ ul li a {
   .service h1 {
     font-size: 20px;
     position: absolute;
-    top: 25%;
+    top: 35%;
     background: #808cc2;
-    margin-top: 30px;
     padding: 20px;
     left: 20px;
     opacity: 0.8;
@@ -1999,11 +1271,10 @@ ul li a {
   }
   .grid-container .item {
     display: flex;
-    margin-left: 38%;
+    margin-left: 35%;
   }
   .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .parnership h1 {
     font-size: 20px;
@@ -2011,7 +1282,7 @@ ul li a {
     text-align: center;
   }
   .parnership .par-p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -2022,17 +1293,15 @@ ul li a {
     flex-wrap: wrap;
   }
   .logo-partnership .logo-1 img {
-    width: 60px;
+    width: 100px;
     border-radius: 100%;
     margin-left: 40px;
     margin-top: 30px;
   }
-}
-@media (max-width: 768px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -2040,7 +1309,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2068,12 +1337,10 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 768px) {
   .check-up h1 {
+    font-size: 20px;
     margin-top: 70px;
     text-align: center;
-    font-size: 20px;
   }
   .check-up .img-check {
     margin: 20px;
@@ -2094,12 +1361,10 @@ ul li a {
     border-radius: 10px;
   }
   .check-up .img-check p {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
     font-size: 15px;
   }
-}
-@media (max-width: 768px) {
   .additional-service {
     margin-top: 20px;
     text-align: center;
@@ -2118,64 +1383,9 @@ ul li a {
     width: 300px;
   }
   .additional-service .cards .card h4 {
+    font-size: 14px;
     margin-bottom: 20px;
     padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    font-size: 12px;
-    width: 100%;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 20px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 12px;
   }
 }
 .button-1 {
@@ -2204,38 +1414,42 @@ ul li a {
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hello {
+    display: flex;
   }
-  ul li img {
-    width: 10px;
-    margin-right: 10px;
-    margin-top: -25px;
-  }
-  ul li a {
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-top: -20px;
+  }
   .service h1 {
-    position: absolute;
-    top: 35%;
+    font-size: 15px;
     background: #808cc2;
     padding: 20px;
-    left: 20px;
     opacity: 0.8;
+    margin-top: -30px;
   }
   .list {
     margin-top: 20px;
     text-decoration: underline;
     margin-left: 70px;
+  }
+  .list h1 {
     font-size: 20px;
   }
   .grid-container {
@@ -2251,13 +1465,15 @@ ul li a {
   }
   .grid-container .item span {
     margin-left: 20px;
-    font-size: 5px;
+    font-size: 10px;
   }
   .parnership h1 {
+    font-size: 20px;
     margin-top: 20px;
     text-align: center;
   }
   .parnership .par-p {
+    font-size: 5px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -2267,71 +1483,18 @@ ul li a {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .logo-partnership .logo-1 {
+    display: flex;
+  }
   .logo-partnership .logo-1 img {
-    width: 100px;
+    width: 20px;
     border-radius: 100%;
     margin-left: 40px;
-    margin-top: 30px;
   }
-}
-@media (max-width: 480px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -2339,7 +1502,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2367,53 +1530,56 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 480px) {
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 22%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
+  .check-up h1 {
+    font-size: 25px;
+    margin-top: 70px;
     text-align: center;
   }
-  .parnership .par-p {
-    font-size: 10px;
-    margin-top: 20px;
+  .check-up .img-check {
     margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
+  .check-up .img-check .pic-1 {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
   }
-}
-@media (max-width: 480px) {
+  .check-up .img-check img {
+    width: 300px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .check-up .img-check p {
+    font-style: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .additional-service {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .additional-service h1 {
+    font-size: 20px;
+  }
+  .additional-service .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .additional-service .cards .card img {
+    margin: 20px;
+    width: 300px;
+  }
+  .additional-service .cards .card h4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
   .grid-container-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -2422,72 +1588,83 @@ ul li a {
     background: #232b52;
     color: white;
     width: 100%;
-    font-size: 12px;
   }
   .grid-container-footer .logo-footer .button-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
-    font-size: 12px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     margin-left: 20px;
+    font-size: 10px;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     margin-bottom: 10px;
-    width: 50px;
-    margin-left: 25px;
+    width: 60px;
+    margin-left: 15px;
     border-radius: 100%;
     overflow: hidden;
   }
   .grid-container-footer .quick-link {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .time-work {
     display: grid;
     row-gap: 10px;
+    font-size: 10px;
+    margin: 10px;
   }
   .grid-container-footer .get-in-toch {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
     padding: 10px;
     margin: 10px;
-    font-size: 3px;
     border-radius: 5px;
     margin-left: -1px;
+    font-size: 10px;
   }
 }
 @media (max-width: 768px) {
+  nav {
+    background: #808cc2;
+    display: flex;
+    justify-content: space-between​​​​;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
   ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hi img {
+    width: 55px;
+    margin-left: 1px;
   }
-  ul li img {
-    width: 50px;
-    margin-right: 380px;
-    margin-top: -20px;
+  ul .hello {
+    display: flex;
   }
-  ul li a {
-    font-size: 20px;
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -2495,9 +1672,8 @@ ul li a {
   .service h1 {
     font-size: 20px;
     position: absolute;
-    top: 25%;
+    top: 35%;
     background: #808cc2;
-    margin-top: 30px;
     padding: 20px;
     left: 20px;
     opacity: 0.8;
@@ -2517,11 +1693,10 @@ ul li a {
   }
   .grid-container .item {
     display: flex;
-    margin-left: 38%;
+    margin-left: 35%;
   }
   .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .parnership h1 {
     font-size: 20px;
@@ -2529,7 +1704,7 @@ ul li a {
     text-align: center;
   }
   .parnership .par-p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -2540,17 +1715,15 @@ ul li a {
     flex-wrap: wrap;
   }
   .logo-partnership .logo-1 img {
-    width: 60px;
+    width: 100px;
     border-radius: 100%;
     margin-left: 40px;
     margin-top: 30px;
   }
-}
-@media (max-width: 768px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -2558,7 +1731,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2586,12 +1759,10 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 768px) {
   .check-up h1 {
+    font-size: 20px;
     margin-top: 70px;
     text-align: center;
-    font-size: 20px;
   }
   .check-up .img-check {
     margin: 20px;
@@ -2612,12 +1783,10 @@ ul li a {
     border-radius: 10px;
   }
   .check-up .img-check p {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
     font-size: 15px;
   }
-}
-@media (max-width: 768px) {
   .additional-service {
     margin-top: 20px;
     text-align: center;
@@ -2636,64 +1805,9 @@ ul li a {
     width: 300px;
   }
   .additional-service .cards .card h4 {
+    font-size: 14px;
     margin-bottom: 20px;
     padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    font-size: 12px;
-    width: 100%;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 20px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 12px;
   }
 }
 .additional-service {
@@ -2727,38 +1841,42 @@ ul li a {
   ul {
     list-style-type: none;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hello {
+    display: flex;
   }
-  ul li img {
-    width: 10px;
-    margin-right: 10px;
-    margin-top: -25px;
-  }
-  ul li a {
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
   }
+  ul li {
+    padding: 15px;
+  }
+  ul li img {
+    width: 50px;
+    margin-top: -20px;
+  }
   .service h1 {
-    position: absolute;
-    top: 35%;
+    font-size: 15px;
     background: #808cc2;
     padding: 20px;
-    left: 20px;
     opacity: 0.8;
+    margin-top: -30px;
   }
   .list {
     margin-top: 20px;
     text-decoration: underline;
     margin-left: 70px;
+  }
+  .list h1 {
     font-size: 20px;
   }
   .grid-container {
@@ -2774,13 +1892,15 @@ ul li a {
   }
   .grid-container .item span {
     margin-left: 20px;
-    font-size: 5px;
+    font-size: 10px;
   }
   .parnership h1 {
+    font-size: 20px;
     margin-top: 20px;
     text-align: center;
   }
   .parnership .par-p {
+    font-size: 5px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -2790,71 +1910,18 @@ ul li a {
     justify-content: center;
     flex-wrap: wrap;
   }
+  .logo-partnership .logo-1 {
+    display: flex;
+  }
   .logo-partnership .logo-1 img {
-    width: 100px;
+    width: 20px;
     border-radius: 100%;
     margin-left: 40px;
-    margin-top: 30px;
   }
-}
-@media (max-width: 480px) {
-  .check-up h1 {
-    margin-top: 70px;
-    text-align: center;
-    font-size: 20px;
-  }
-  .check-up .img-check {
-    margin: 20px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .check-up .img-check .pic-1 {
-    margin: 20px;
-    font-weight: bold;
-    font-size: 20px;
-  }
-  .check-up .img-check img {
-    width: 300px;
-    height: 200px;
-    -o-object-fit: cover;
-       object-fit: cover;
-    border-radius: 10px;
-  }
-  .check-up .img-check p {
-    margin-left: 70px;
-    margin-top: 10px;
-    font-size: 16px;
-  }
-}
-@media (max-width: 480px) {
-  .additional-service {
-    margin-top: 20px;
-    text-align: center;
-  }
-  .additional-service h1 {
-    font-size: 20px;
-  }
-  .additional-service .cards {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  .additional-service .cards .card img {
-    margin: 20px;
-    width: 300px;
-  }
-  .additional-service .cards .card h4 {
-    margin-bottom: 20px;
-    padding: 20px;
-  }
-}
-@media (max-width: 480px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -2862,7 +1929,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 15px;
+    font-size: 12px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2890,53 +1957,56 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 480px) {
-  .list {
-    font-size: 10px;
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 22%;
-  }
-  .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
+  .check-up h1 {
+    font-size: 25px;
+    margin-top: 70px;
     text-align: center;
   }
-  .parnership .par-p {
-    font-size: 10px;
-    margin-top: 20px;
+  .check-up .img-check {
     margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
   }
-  .logo-partnership .logo-1 img {
-    width: 60px;
-    border-radius: 100%;
-    margin-left: 40px;
-    margin-top: 30px;
+  .check-up .img-check .pic-1 {
+    margin: 20px;
+    font-weight: bold;
+    font-size: 20px;
   }
-}
-@media (max-width: 480px) {
+  .check-up .img-check img {
+    width: 300px;
+    height: 200px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    border-radius: 10px;
+  }
+  .check-up .img-check p {
+    font-style: 15px;
+    margin-left: 70px;
+    margin-top: 10px;
+  }
+  .additional-service {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .additional-service h1 {
+    font-size: 20px;
+  }
+  .additional-service .cards {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .additional-service .cards .card img {
+    margin: 20px;
+    width: 300px;
+  }
+  .additional-service .cards .card h4 {
+    margin-bottom: 20px;
+    padding: 20px;
+    font-size: 15px;
+  }
   .grid-container-footer {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -2945,72 +2015,83 @@ ul li a {
     background: #232b52;
     color: white;
     width: 100%;
-    font-size: 12px;
   }
   .grid-container-footer .logo-footer .button-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
-    font-size: 12px;
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
     margin-left: 20px;
+    font-size: 10px;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     margin-bottom: 10px;
-    width: 50px;
-    margin-left: 25px;
+    width: 60px;
+    margin-left: 15px;
     border-radius: 100%;
     overflow: hidden;
   }
   .grid-container-footer .quick-link {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .time-work {
     display: grid;
     row-gap: 10px;
+    font-size: 10px;
+    margin: 10px;
   }
   .grid-container-footer .get-in-toch {
     display: grid;
     row-gap: 10px;
+    margin: 10px;
+    font-size: 10px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    font-size: 10px;
     border: none;
     font-weight: bold;
     color: white;
     background: #2be3e0;
     padding: 10px;
     margin: 10px;
-    font-size: 3px;
     border-radius: 5px;
     margin-left: -1px;
+    font-size: 10px;
   }
 }
 @media (max-width: 768px) {
+  nav {
+    background: #808cc2;
+    display: flex;
+    justify-content: space-between​​​​;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
   ul {
     list-style-type: none;
     display: flex;
+    justify-content: space-between;
     background: #808cc2;
     height: 10vh;
     width: 100%;
     padding: 7px;
     opacity: 0.8;
   }
-  ul li {
-    padding: 15px;
+  ul .hi img {
+    width: 55px;
+    margin-left: 1px;
   }
-  ul li img {
-    width: 50px;
-    margin-right: 380px;
-    margin-top: -20px;
+  ul .hello {
+    display: flex;
   }
-  ul li a {
-    font-size: 20px;
+  ul .hello li a {
+    font-size: 15px;
     font-weight: bold;
     color: white;
     text-decoration: none;
@@ -3018,9 +2099,8 @@ ul li a {
   .service h1 {
     font-size: 20px;
     position: absolute;
-    top: 25%;
+    top: 35%;
     background: #808cc2;
-    margin-top: 30px;
     padding: 20px;
     left: 20px;
     opacity: 0.8;
@@ -3040,11 +2120,10 @@ ul li a {
   }
   .grid-container .item {
     display: flex;
-    margin-left: 38%;
+    margin-left: 35%;
   }
   .grid-container .item span {
-    font-size: 13px;
-    margin-left: 20px;
+    margin-left: 15px;
   }
   .parnership h1 {
     font-size: 20px;
@@ -3052,7 +2131,7 @@ ul li a {
     text-align: center;
   }
   .parnership .par-p {
-    font-size: 13px;
+    font-size: 15px;
     margin-top: 20px;
     margin: 20px;
     text-align: justify;
@@ -3063,17 +2142,15 @@ ul li a {
     flex-wrap: wrap;
   }
   .logo-partnership .logo-1 img {
-    width: 60px;
+    width: 100px;
     border-radius: 100%;
     margin-left: 40px;
     margin-top: 30px;
   }
-}
-@media (max-width: 768px) {
   .container h1 {
+    font-size: 20px;
     text-align: center;
     margin-top: 20px;
-    font-size: 20px;
   }
   .container .chioes {
     margin: 20px;
@@ -3081,7 +2158,7 @@ ul li a {
     justify-content: space-around;
   }
   .container .chioes .choes-1 {
-    font-size: 14px;
+    font-size: 15px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -3109,12 +2186,10 @@ ul li a {
     margin-left: 30px;
     margin-right: 30px;
   }
-}
-@media (max-width: 768px) {
   .check-up h1 {
+    font-size: 20px;
     margin-top: 70px;
     text-align: center;
-    font-size: 20px;
   }
   .check-up .img-check {
     margin: 20px;
@@ -3135,12 +2210,10 @@ ul li a {
     border-radius: 10px;
   }
   .check-up .img-check p {
-    margin-left: 70px;
+    margin-left: 90px;
     margin-top: 10px;
     font-size: 15px;
   }
-}
-@media (max-width: 768px) {
   .additional-service {
     margin-top: 20px;
     text-align: center;
@@ -3159,64 +2232,9 @@ ul li a {
     width: 300px;
   }
   .additional-service .cards .card h4 {
+    font-size: 14px;
     margin-bottom: 20px;
     padding: 20px;
-  }
-}
-@media (max-width: 768px) {
-  .grid-container-footer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    padding: 10px;
-    margin-top: 20px;
-    background: #232b52;
-    color: white;
-    font-size: 12px;
-    width: 100%;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 12px;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 20px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
-  }
-  .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
-  }
-  .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 12px;
   }
 }
 .grid-container-footer {
