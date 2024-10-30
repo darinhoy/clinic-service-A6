@@ -81,13 +81,11 @@
         justify-content: center;
         flex-wrap: wrap;
 
-        .logo-1{
+        .logo-1 img{
             display: flex;
-            img{
-                width:20px;
-                border-radius: 100%;
-                margin-left: 40px;
-            }
+            width:30px;
+            border-radius: 100%;
+            margin-left: 40px;
         }
     }
 
@@ -137,7 +135,22 @@
             margin-right: 30px;
         }
     }
+// button
 
+.button-1{
+    @include jcc;
+    .center-button{
+        border: none;
+        font-weight: bold;
+        color: $color-nav;
+        background: $bg-button;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .center-button:hover{
+        background: #232b52;
+    }
+}
 
     // Cheack
     .check-up{
@@ -261,7 +274,6 @@
         }
 }
 }
-
 @media(max-width:768px){
     nav {
         background: $bg-navbar;
@@ -347,6 +359,23 @@
             margin-left: 40px;
             margin-top: 30px;
             }
+    }
+
+    // button
+
+    .button-1{
+        @include jcc;
+        .center-button{
+            border: none;
+            font-weight: bold;
+            color: $color-nav;
+            background: $bg-button;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        .center-button:hover{
+            background: #232b52;
+        }
     }
 
     // Contaner
@@ -517,4 +546,45 @@
         }
     }
     
+}
+@media(max-width:1200px) {
+    nav {
+        background: $bg-navbar;
+       @include text-center-nav;
+       a:hover{
+        text-decoration: underline;
+    }
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        .hi{
+            img{
+                width: 50px;
+                margin-left: 1px;
+            }
+        }
+        .hello{
+            display: flex;
+
+            li a {
+                font-size: 15px;
+                font-weight: bold;
+                color: $color-nav;
+                text-decoration: none;
+        
+            }
+        }
+    
+    }
+    .service h1{
+        font-size: 20px;
+        position: absolute ;
+        top: 35%;
+        background: #808cc2;
+        padding: 20px;
+        left: 20px;
+        opacity: 0.8;
+}
 }
