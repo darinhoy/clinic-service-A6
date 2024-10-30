@@ -1,8 +1,8 @@
 @import"__mixins";
 nav {
-    flex: 0.5;
     background: $bg-navbar;
    @include text-center-nav;
+   
 }
 ul {
     list-style-type: none;
