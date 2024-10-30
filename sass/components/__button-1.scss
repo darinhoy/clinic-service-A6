@@ -1,14 +1,17 @@
+@import"./_variable";
+@import"./_mixins";
 .button-1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include jcc;
     .center-button{
         border: none;
         font-weight: bold;
-        color: white;
-        background: #2be3e0;
+        color: $color-nav;
+        background: $bg-button;
         padding: 15px;
         border-radius: 10px;
+    }
+    .center-button:hover{
+        background: #232b52;
     }
 }
 @import"./_responsive";

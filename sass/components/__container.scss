@@ -1,3 +1,4 @@
+@import"./_variable";
 .container{
     h1{
         text-align: center;
@@ -10,27 +11,24 @@
        
 
         .choes-1{
-            // font-weight: bold;
             font-size: 20px;
         }
         .choes-2{
             margin-left: 2%;
-            background: #fff;
-            color: black;
+            background: $bg-navbar;
             padding: 10px;
             border-radius: 100%;
         }
         .choes-3{
             margin-left: 5%;
-            background: #fff;
-            color: black;
+            background: $bg-navbar;
+
             padding: 10px;
             border-radius: 100%;
         }
         .choes-4{
             margin-left: 3%;
-            background: #fff;
-            color: black;
+            background: $bg-navbar;
             padding: 10px;
             border-radius: 100%;
         }

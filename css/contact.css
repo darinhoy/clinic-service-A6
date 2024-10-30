@@ -289,7 +289,7 @@ ul li a {
     margin: 10px;
     border-radius: 5px;
     margin-left: 20px;
-    font-size: 10px;
+    font-size: 5px;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     margin-bottom: 10px;
@@ -325,7 +325,7 @@ ul li a {
     margin: 10px;
     border-radius: 5px;
     margin-left: -1px;
-    font-size: 10px;
+    font-size: 3px;
   }
 }
 @media (max-width: 768px) {
@@ -499,5 +499,61 @@ ul li a {
     font-size: 14px;
     margin-bottom: 20px;
     padding: 20px;
+  }
+  .grid-container-footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 10px;
+    margin-top: 20px;
+    background: #232b52;
+    color: white;
+    width: 100%;
+  }
+  .grid-container-footer .logo-footer .button-footer {
+    border: none;
+    font-weight: bold;
+    color: white;
+    background: #2be3e0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 13px;
+  }
+  .grid-container-footer .logo-footer .lg-footer img {
+    margin-bottom: 10px;
+    width: 90px;
+    margin-left: 15px;
+    border-radius: 100%;
+    overflow: hidden;
+  }
+  .grid-container-footer .quick-link {
+    display: grid;
+    row-gap: 10px;
+    margin: 10px;
+    font-size: 13px;
+  }
+  .grid-container-footer .time-work {
+    display: grid;
+    row-gap: 10px;
+    margin: 10px;
+    font-size: 13px;
+  }
+  .grid-container-footer .get-in-toch {
+    display: grid;
+    row-gap: 10px;
+    margin: 10px;
+    font-size: 13px;
+  }
+  .grid-container-footer .get-in-toch .bt-footer {
+    border: none;
+    font-weight: bold;
+    color: white;
+    background: #2be3e0;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    margin-left: -1px;
+    font-size: 13px;
   }
 }/*# sourceMappingURL=contact.css.map */

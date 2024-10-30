@@ -223,7 +223,7 @@
                 margin: 10px;
                 border-radius: 5px;
                 margin-left: 20px;
-                font-size: 10px;
+                font-size: 5px;
             }
             .lg-footer img{
                 margin-bottom: 10px;
@@ -261,7 +261,7 @@
                 margin: 10px;
                 border-radius: 5px;
                 margin-left: -1px;
-                font-size: 10px;
+                font-size: 3px;
             }
         }
 }
@@ -463,4 +463,69 @@
         }
         
     }
+
+    // footer
+
+    .grid-container-footer{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        padding: 10px;
+        margin-top: 20px;
+        background:     #232b52;
+        color: white;
+        width: 100%;
+        .logo-footer{
+    
+            .button-footer{
+                border: none;
+                font-weight: bold;
+                color: white;
+                background: #2be3e0;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
+                margin-left: 20px;
+                font-size: 13px;
+            }
+            .lg-footer img{
+                margin-bottom: 10px;
+                width: 90px;
+                margin-left: 15px;
+                border-radius:100%;
+                overflow: hidden;
+            }
+        }
+        .quick-link{
+            display: grid;
+            row-gap: 10px;
+            margin: 10px;
+            font-size: 13px;
+        }
+        .time-work{
+            display: grid;
+            row-gap: 10px;
+            margin: 10px;
+            font-size: 13px;
+
+        }
+        .get-in-toch{
+            display: grid;
+            row-gap: 10px;
+            margin: 10px;
+            font-size: 13px;
+    
+            .bt-footer{
+                border: none;
+                font-weight: bold;
+                color: white;
+                background: #2be3e0;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 5px;
+                margin-left: -1px;
+                font-size: 13px;
+            }
+        }
+    }
+    
 }
