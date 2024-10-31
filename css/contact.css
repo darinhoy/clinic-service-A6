@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +10,6 @@ body {
 }
 
 nav {
-  background: #98b2d8;
-  display: flex;
-  justify-content: space-between​​​​;
   justify-content: space-between;
   display: flex;
   width: 100%;
@@ -26,11 +22,6 @@ nav .logo img {
 }
 nav ul {
   display: flex;
-  justify-content: flex-end;
-  background: #8099ae;
-  height: 10vh;
-  width: 100%;
-  opacity: 0.8;
 }
 nav ul li, nav ul a {
   display: flex;
