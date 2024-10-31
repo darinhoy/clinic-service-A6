@@ -4,20 +4,25 @@ nav {
   background-size: 100%;
   height: 70vh;
 }
+nav label input {
+  display: none;
+}
 nav ul {
   background-color: #2a89a3;
   opacity: 0.9;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
   font-size: 25px;
   height: 10vh;
-  width: 100%;
+  width: 97%;
+  padding: 20px;
 }
 nav ul img {
-  margin-right: 2700%;
-  width: 60px;
-  margin-bottom: 5px;
+  width: 75px;
+}
+nav ul .link {
+  display: flex;
 }
 nav ul li {
   list-style-type: none;
@@ -35,7 +40,7 @@ nav .paragrab {
   margin: 0;
   background: #2a89a3;
   opacity: 0.8;
-  height: 57vh;
+  height: 51vh;
   padding: 10px;
 }
 nav h1 {
@@ -50,20 +55,165 @@ nav button {
   border-radius: 20px;
   border: none;
   color: #fff;
-  background-color: hsl(179, 77%, 53%);
+  background-color: hsla(180, 97%, 48%, 0.74);
   font-size: 20px;
+  cursor: pointer;
 }
 nav p {
   font-size: 20px;
   margin: 5px 20px;
 }
 nav .doctor {
-  width: 300px;
+  width: 270px;
   position: absolute;
-  top: 69px;
+  top: 107px;
   left: 70%;
 }
 
+@media (max-width: 768px) {
+  nav {
+    width: 100%;
+    height: 75vh;
+  }
+  nav label input {
+    display: none;
+  }
+  nav ul {
+    font-size: 15px;
+    height: 10vh;
+    width: 94.8%;
+  }
+  nav ul li a {
+    font-size: 15px;
+  }
+  nav ul img {
+    width: 70px;
+    margin-bottom: 5px;
+  }
+  nav .paragrab {
+    height: 50.3vh;
+    width: 97.4%;
+  }
+  nav .paragrab h1 {
+    font-size: 20px;
+  }
+  nav .paragrab p {
+    font-size: 15px;
+  }
+  nav .paragrab button {
+    width: 130px;
+    font-size: 15px;
+  }
+  nav .doctor {
+    width: 150px;
+    position: absolute;
+    top: 115px;
+    left: 70%;
+  }
+}
+@media (max-width: 480px) {
+  nav {
+    width: 100%;
+    height: 70vh;
+  }
+  nav label .slide .common {
+    position: absolute;
+    width: 30px;
+    height: 5px;
+    background-color: rgb(205, 199, 233);
+    border-radius: 20px;
+  }
+  nav label .slide .top {
+    top: 30px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+  }
+  nav label .slide .midlle {
+    top: 40px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+  }
+  nav label .slide .buttom {
+    top: 20px;
+    left: 50px;
+    transform: translate(-50%, -50%);
+  }
+  nav label input:checked ~ .slide .top {
+    left: 2px;
+    top: 10px;
+    transform: rotate(45deg);
+  }
+  nav label input:checked ~ .slide .midlle {
+    left: 2px;
+    top: 10px;
+    transform: rotate(45deg);
+  }
+  nav label input:checked ~ .slide .buttom {
+    left: 2px;
+    top: 10px;
+    transform: rotate(-45deg);
+  }
+  nav label input:checked ~ .link {
+    transform: translateX(0);
+    transition: 1s;
+    background: rgb(114, 114, 170);
+  }
+  nav label ul {
+    flex-direction: row-reverse;
+    font-size: 10px;
+    height: 10vh;
+    width: 91.3%;
+  }
+  nav label ul .slide {
+    cursor: pointer;
+    position: absolute;
+    left: 15px;
+    top: 10px;
+  }
+  nav label ul input {
+    display: none;
+  }
+  nav label ul .link {
+    display: block;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    height: 100vh;
+    position: absolute;
+    padding-top: 30px;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transform: translateX(-180px);
+    transition: 1s;
+  }
+  nav label ul .link li a {
+    font-size: 20px;
+    margin-top: 30px;
+  }
+  nav .paragrab {
+    width: 95.5%;
+    height: 45.5vh;
+    display: none;
+  }
+  nav .paragrab h1 {
+    font-size: 15px;
+  }
+  nav .paragrab p {
+    width: 280px;
+  }
+  nav .paragrab button {
+    font-size: 10px;
+    width: 100px;
+    height: 8vh;
+  }
+  nav .paragrab p {
+    font-size: 10px;
+  }
+  nav .doctor {
+    width: 130px;
+    top: 120px;
+    left: 65%;
+  }
+}
 .card {
   background: #fff;
   display: flex;
@@ -74,18 +224,19 @@ nav .doctor {
 .card img {
   margin: 0 auto;
   padding: 20px;
-  width: 98%;
+  width: 200%;
   height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 main {
-  text-align: center;
+  padding: 25px;
 }
 main h3 {
   font-size: 30px;
 }
 main p {
-  margin-left: 350px;
   font-size: 20px;
   text-align: justify;
 }
@@ -103,18 +254,19 @@ main p {
   padding: 20px;
   width: 98%;
   height: 80vh;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .our {
+  padding: 25px;
   font-size: 20px;
-  text-align: center;
 }
 .our h3 {
   font-size: 30px;
 }
 .our p {
   text-align: justify;
-  margin-left: 350px;
 }
 
 h3 {
@@ -126,21 +278,41 @@ h3 {
 .our-value {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .our-value .cards {
   margin: 20px;
+  position: relative;
 }
 .our-value .cards h4 {
-  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transform: 0.6s;
+}
+.our-value .cards h4:hover {
+  opacity: 1;
 }
 .our-value .cards img {
   width: 100px;
   background: #fff;
   padding: 10px;
+  display: block;
+  margin: auto;
 }
 
 .team {
   text-align: center;
+}
+.team p {
+  font-size: 20px;
 }
 
 .cardes {
@@ -189,7 +361,151 @@ h3 {
   border: none;
   cursor: pointer;
 }
+.cardes .carda button:hover {
+  background: rgb(133, 217, 250);
+  padding: 12px;
+}
 
+@media (max-width: 768px) {
+  .card {
+    width: 95%;
+  }
+  .card img {
+    width: 98%;
+  }
+  main {
+    width: 90%;
+  }
+  main h3 {
+    font-size: 20px;
+  }
+  main p {
+    width: 90%;
+    font-size: 15px;
+  }
+  .picher {
+    width: 95%;
+  }
+  .picher img {
+    width: 98%;
+  }
+  .our {
+    width: 90%;
+  }
+  .our h3 {
+    font-size: 20px;
+  }
+  .our p {
+    font-size: 15px;
+    text-align: justify;
+  }
+  .our-value {
+    padding: 5px;
+    width: 98%;
+    margin-top: -30px;
+  }
+  .our-value .cards {
+    margin: 20px;
+  }
+  .team {
+    width: 95%;
+  }
+  .team h3 {
+    font-size: 20px;
+  }
+  .team p {
+    font-size: 10px;
+  }
+  .cardes {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardes .carda {
+    width: 40%;
+    height: 70vh;
+  }
+  .cardes .carda img {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media (max-width: 480px) {
+  .card {
+    width: 92%;
+  }
+  .card img {
+    width: 100%;
+  }
+  main {
+    text-align: center;
+    width: 89%;
+  }
+  main p {
+    width: 100%;
+    font-size: 10px;
+  }
+  main h3 {
+    font-size: 20px;
+  }
+  .picher {
+    width: 92%;
+  }
+  .picher img {
+    width: 95%;
+  }
+  .our {
+    width: 89%;
+  }
+  .our p {
+    width: 100%;
+    font-size: 10px;
+  }
+  .our-value {
+    width: 98%;
+  }
+  .our-value .cards {
+    width: 80px;
+  }
+  .our-value .cards h4 {
+    font-size: 10px;
+  }
+  .our-value .cards img {
+    width: 50px;
+  }
+  .team {
+    width: 100%;
+  }
+  .cardes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .cardes .carda {
+    width: 90%;
+    height: 70vh;
+  }
+  .cardes .carda img {
+    width: 100px;
+    height: 100px;
+  }
+  .cardes .carda .icon .fa-icon {
+    font-size: 10px;
+    border-radius: 25px;
+  }
+  .cardes .carda h2 {
+    font-size: 15px;
+  }
+  .cardes .carda button {
+    width: 200px;
+  }
+  .time-work h3 {
+    font-size: 15px;
+  }
+  .time-work p {
+    font-size: 10px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -214,13 +530,14 @@ body {
   margin: 5px;
 }
 .grid-container-footer .logo-footer .button-footer {
-  padding: 10px;
   width: 100px;
   font-size: 15px;
+  padding: 10px;
   border-radius: 10px;
   border: none;
   background-color: #2a89a3;
   color: #fff;
+  cursor: pointer;
 }
 .grid-container-footer .quick-link .magin-letter {
   margin: 10px;
@@ -233,6 +550,9 @@ body {
 .get-in-toch {
   margin-top: 35px;
 }
+.get-in-toch button {
+  color: #000;
+}
 .get-in-toch h3 {
   padding-right: 55px;
 }
@@ -243,4 +563,84 @@ body {
 #active {
   background: hsl(179, 77%, 53%);
   padding: 10px;
+}
+
+body {
+  background-color: #98a1cc;
+}
+
+nav {
+  background-image: url(/images/home/img3.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 70vh;
+}
+nav ul {
+  background-color: rgb(38, 139, 221);
+  opacity: 0.9;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 25px;
+  height: 10vh;
+  width: 100%;
+}
+nav ul img {
+  margin-right: 2700%;
+  width: 60px;
+  margin-bottom: 5px;
+}
+nav ul li {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li a {
+  text-decoration: none;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+nav .get-in-toch h3 {
+  font-size: 20px;
+}
+nav .get-in-toch p {
+  font-size: 15px;
+}
+
+@media (max-width: 480px) {
+  .grid-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .grid-container-footer .logo-footer .lg-footer img {
+    display: none;
+  }
+  .grid-container-footer .logo-footer .button-footer {
+    display: none;
+  }
+  .grid-container-footer .quick-link h3 {
+    font-size: 15px;
+  }
+  .grid-container-footer .quick-link p {
+    font-size: 10px;
+  }
+  .time-work h3 {
+    font-size: 15px;
+  }
+  .time-work h3 p {
+    font-size: 10px;
+  }
+  .get-in-toch h3 {
+    font-size: 15px;
+  }
+  .get-in-toch p {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=main.css.map */
