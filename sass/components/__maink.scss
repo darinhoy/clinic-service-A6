@@ -38,7 +38,7 @@ img{
 }
 .our{
     padding: 25px;
-        font-size: 20px;
+    font-size: 20px;
     h3{
         font-size: 30px;
     }
@@ -84,6 +84,9 @@ img{
 }
 .team{
     text-align: center;
+    p{
+        font-size: 20px;
+    }
 }
 .cardes{
     
@@ -91,7 +94,6 @@ img{
     @include center();
     margin-top: 20px;
 .carda{
-
     background-color: $text-color;
     width: 250px;
     height: 60vh;
@@ -179,7 +181,6 @@ img{
         margin-top: -30px;
         .cards{
             margin: 20px;
-            z-index: -1;
         }
     }
     .team{
