@@ -1,0 +1,244 @@
+@import"mixink.scss";
+nav{
+    background-image: url(/images/home/img3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 70vh; 
+    label{
+        input{
+            display: none;
+        }
+    }
+    ul{
+    
+        background-color: $bg-color;
+        opacity: 0.9;
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        font-size: 25px;
+        height: 10vh;
+        width: 97%;
+        padding: 20px;
+        img{
+            width: 75px;
+        }
+        .link{
+            display: flex;
+        }
+        li{
+         
+            list-style-type: none;
+            @include center();
+            a{
+                text-decoration: none;
+                margin-left: 40px;
+                margin-right: 40px;
+                color: $text-color;
+                
+            }  
+        }
+    }
+    .paragrab{
+        margin: 0;
+        background: $bg-color;
+        opacity: 0.8;
+        height: 51vh;
+        padding: 10px;
+
+
+    }
+    h1{
+        font-size: 40px;
+        margin: 5px 20px;
+    }
+    button{
+        
+        margin: 5px 20px;
+        padding: 10px;
+        width: 150px;
+        height: 10vh;
+        border-radius: 20px;
+        border: none;
+        color: $text-color;
+        background-color: hsla(180, 97%, 48%, 0.74);
+        font-size: 20px;
+        cursor: pointer;
+    }
+        p{
+            font-size: 20px;
+            margin: 5px 20px;
+        }
+        .doctor{
+            width: 270px;
+            position: absolute;
+            top: 107px;
+            left: 70%;
+            
+        }
+ 
+    }
+@media(max-width:768px){
+    nav{
+        width: 100%;
+        height: 75vh; 
+        label{
+            input{
+                display: none;
+            }
+        }
+        ul{
+            font-size: 15px;
+            height: 10vh;
+            width: 94.8%;
+            li{
+                a{
+                    font-size: 15px;
+                }
+            }
+            img{
+                width: 70px;
+                margin-bottom: 5px;
+            }
+        }
+        .paragrab{
+            height: 50.3vh;
+            width: 97.4%;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 15px;
+            }
+            button{
+                width: 130px;
+                font-size: 15px;
+            }
+        }
+        .doctor{
+            width: 150px;
+            position: absolute;
+            top: 115px;
+            left: 70%;
+                
+        }
+     
+    }
+}
+@media (max-width: 480px) {
+    nav{
+        width: 100%;
+        height: 70vh; 
+        label{
+          
+            .slide .common{
+                position: absolute;
+                width: 30px;
+                height: 5px;
+                background-color: rgb(205, 199, 233);
+                border-radius: 20px;
+            }
+            .slide .top{
+                top: 30px;
+                left: 50px;
+                transform: translate(-50%, -50%);
+            }
+            .slide .midlle{
+                top: 40px;
+                left: 50px;
+                transform: translate(-50%, -50%);
+            }
+            .slide .buttom {
+                top: 20px;
+                left: 50px;
+                transform: translate(-50%, -50%);
+            }
+            input:checked ~ .slide .top{
+                left: 2px;
+                top: 10px;
+                transform: rotate(45deg);
+            }
+            input:checked ~ .slide .midlle{
+                left: 2px;
+                top: 10px;
+                transform: rotate(45deg);
+            }
+            input:checked ~ .slide .buttom{
+                left: 2px;
+                top: 10px;
+                transform: rotate(-45deg);
+            }
+            input:checked ~ .link{
+                transform: translateX(0);
+                transition: 1s;
+                background: rgb(114, 114, 170);
+            }
+            ul{
+                flex-direction: row-reverse;
+                font-size: 10px;
+                height: 10vh;
+                width: 91.3%;  
+            
+                .slide{
+                    cursor: pointer;
+                    position: absolute;
+                    left: 15px;
+                    top: 10px;
+                }
+                input{
+                    display: none;
+                 
+
+                }
+                .link{
+                    display: block;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+                    height: 100vh;
+                    position: absolute;
+                    padding-top: 30px;
+                    top: 0;
+                    left: 0;
+                    z-index: -1;
+                    transform: translateX(-180px);
+                    transition: 1s;
+                    li{
+                       
+                        a{
+                            font-size: 20px;
+                            margin-top: 30px;
+                            
+                        }
+                    }
+
+                }
+                
+            }
+        }
+            .paragrab{
+                width: 95.5%;
+                height:45.5vh;
+                display: none;
+                h1{
+                    font-size: 15px;
+                }
+                p{
+                    width: 280px;
+                }
+                button{
+                    font-size: 10px;
+                    width: 100px;
+                    height: 8vh;
+                }
+                p{
+                    font-size: 10px;
+            }
+            
+        }
+        .doctor{
+            width: 130px;
+            top: 120px;
+            left: 65%;
+                
+        }
+    }
+}

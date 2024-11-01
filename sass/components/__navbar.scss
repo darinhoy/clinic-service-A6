@@ -85,4 +85,40 @@ ul {
         margin-top: 30px;
         }
 }
-@import"./_responsive";
+.grid-container-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    margin-top: 20px;
+    background:     #2b335c;
+    color: white;
+    width: 100%;
+    .logo-footer{
+
+        .button-footer{
+            border: none;
+            font-weight: bold;
+            color: white;
+            background: #2be3e0;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+        }
+    }
+    .quick-link{
+        display: grid;
+        row-gap: 20px;
+        margin: 10px;
+    }
+    .time-work{
+        display: grid;
+        row-gap: 20px;
+        margin: 10px;
+    }
+    .get-in-toch{
+        display: grid;
+        row-gap: 20px;
+        margin: 10px;
+    }
+
+}

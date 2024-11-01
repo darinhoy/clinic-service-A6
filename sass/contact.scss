@@ -1,8 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-@import"components/_variable";
-@import"components/_navbar";
 
+@import"./components/componentscontact/_variablecontact";
+@import"./components/componentscontact/_bodycontact";
+@import"./components/componentscontact/_navcontact";
+@import"./components/componentscontact/_Locationcontact";
+@import"./components/componentscontact/_make-appointment";
+@import"./components/componentscontact/_timetablecontact";
+@import"./components/componentscontact/_feedbackform";
+@import"./components/componentscontact/_footercontact";
+@import"./components/componentscontact/_responsivecontact";
+@import"./components/componentscontact/_responsiveMoblie";
