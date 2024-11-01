@@ -64,38 +64,42 @@
         background: hsl(179, 77%, 53%);
         padding: 10px;
     }
-    @media (max-width: 768px){
-        .grid-container-footer{
-           width: 100%;
-           height: 50vh;
-          .logo-footer{
-            .lg-footer{
-                img{
-                    width: 50px;
-                }
+
+
+
+    body{
+        background-color: #98a1cc;
+    }
+    nav{
+        background-image: url(/images/home/img3.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 70vh;    
+        ul{
+            background-color: rgb(38, 139, 221);
+            opacity: 0.9;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            font-size: 25px;
+            height: 10vh;
+            width: 100%;
+          
+            img{
+                margin-right: 2700%;
+                width: 60px;
+                margin-bottom: 5px;
             }
-            .magin{
-                margin: 5px;
-            }
-            .button-footer{
-                font-size: 15px;
-                width: 90px;
-            }
-          }
-          .quick-link{
-                h3{
-                    font-size: 20px;
-                }
-                p{
-                    font-size: 15px;
-                }
-          }
-        }
-        .time-work{
-            h3{
-                font-size: 20px;
-                p{
-                    font-size: 15px;
+            li{
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                a{
+                    text-decoration: none;
+                    margin-left: 40px;
+                    margin-right: 40px;
+                    
                 }
             }
         }

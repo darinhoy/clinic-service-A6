@@ -1,0 +1,159 @@
+@media(min-width:768px) and (max-width:1024px) {
+    nav {
+        border-bottom: 1px solid #fff;
+
+    }
+
+    .follow {
+        margin-left: -15px;
+        margin-right: 35px;
+
+        .mail,
+        .phone,
+        .location {
+            font-size: 13px;
+            height: 30vh;
+            width: 80%;
+            padding: 5%;
+
+
+        }
+    }
+
+    .timetable {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 93%;
+            margin: 0 auto;
+            margin-top: 20px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            border-radius: 10px;
+            overflow: hidden;
+
+        }
+
+        th {
+            background-color: #6176d4c7;
+        }
+
+        td {
+            background-color: #6176d4c7;
+            color: #fff;
+            font-size: 13px;
+        }
+
+        tr:nth-child(3) {
+            display: none;
+        }
+
+    }
+
+    .content-pointment {
+        h1 {
+            font-size: 30px;
+
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .make-appointment {
+            background-color: #6176d4c7;
+
+            h3 {
+                color: $bg-color-text
+            }
+
+            .form-letf {
+
+                .name,
+                .number,
+                .password,
+                .address-email,
+                .text {
+                    width: 90%;
+                    margin-bottom: 10px;
+                }
+
+                .number,
+                .password {
+                    display: none;
+                }
+
+                .lastname {
+                    margin-top: 10px;
+                }
+
+                .fa-solid,
+                .fa-user {
+                    display: none;
+                }
+            }
+
+            .button {
+                width: 78%;
+            }
+        }
+
+    }
+
+    .feedback {
+        h1 {
+            font-size: 30px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .comment {
+            background-color: #6176d4c7;
+            height: 73vh;
+
+            form {
+                .img {
+                    height: 64vh;
+                }
+
+                .rigth {
+                    h4 {
+                        margin-bottom: 10px;
+                    }
+
+                    color: #fff;
+
+                    .rat,
+                    .ne,
+                    .em,
+                    .com {
+                        margin-top: -5px;
+                    }
+
+                    .ne {
+                        margin-top: 5px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.grid-container-footer {
+    font-size: 16px;
+
+    .lg-footer {
+        margin-top: -5px;
+    }
+}
+
