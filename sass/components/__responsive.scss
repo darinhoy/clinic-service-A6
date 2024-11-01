@@ -11,6 +11,10 @@
         list-style-type: none;
         display: flex;
         justify-content: space-between;
+        #active{
+            background: hsl(179, 77%, 53%);
+            padding: 5px;
+        }
         .hello{
             display: flex;
 
@@ -26,7 +30,7 @@
             padding: 15px;
             img{
                 width: 50px;  
-                margin-top: -20px;       
+                margin-top: -23px;       
             }
         }
       

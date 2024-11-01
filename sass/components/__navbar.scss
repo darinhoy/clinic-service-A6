@@ -2,20 +2,21 @@
 nav {
     background: $bg-navbar;
    @include text-center-nav;
-   a:hover{
-    text-decoration: underline;
-}
 }
 ul {
     list-style-type: none;
-
+    position: fixed;
     display: flex;
+    border-bottom:1px solid lightblue; 
     justify-content: space-between;
     background:$bg-navbar ;
     height: 10vh;
     width: 100%;
     padding: 7px;
-    opacity: 0.8;
+    #active{
+        background: hsl(179, 77%, 53%);
+        padding: 10px;
+    }
     .hello{
         display: flex;
     }
@@ -122,3 +123,6 @@ ul {
     }
 
 }
+
+
+
