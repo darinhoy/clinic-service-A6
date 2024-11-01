@@ -11,17 +11,18 @@ nav{
     }
     ul{
     
-        background-color: $bg-color;
+        background-color: #6686db;
         opacity: 0.9;
         display: flex;
         justify-content:space-between;
         align-items: center;
         font-size: 25px;
-        height: 10vh;
-        width: 97%;
-        padding: 20px;
+        width: 100%;
+        position: fixed;
+        z-index: 1;
+
         img{
-            width: 75px;
+            width: 45%;
         }
         .link{
             display: flex;
@@ -35,6 +36,7 @@ nav{
                 margin-left: 40px;
                 margin-right: 40px;
                 color: $text-color;
+                font-size: 20px;
                 
             }  
         }
@@ -43,14 +45,16 @@ nav{
         margin: 0;
         background: $bg-color;
         opacity: 0.8;
-        height: 51vh;
+        height: 67vh;
         padding: 10px;
+        
 
 
     }
     h1{
+        margin: 110px 20px 0;
         font-size: 40px;
-        margin: 5px 20px;
+        // margin: 5px 20px;
     }
     button{
         
@@ -89,25 +93,27 @@ nav{
         }
         ul{
             font-size: 15px;
-            height: 10vh;
-            width: 94.8%;
+            height: 15vh;
+            width: 100%;
             li{
                 a{
-                    font-size: 15px;
+                    font-size: 20px;
                 }
             }
             img{
-                width: 70px;
+                width: 40%;
                 margin-bottom: 5px;
             }
         }
         .paragrab{
-            height: 50.3vh;
+            height: 70vh;
             width: 97.4%;
             h1{
+                margin-top: 70px;
                 font-size: 20px;
             }
             p{
+                // margin-bottom: 200px;
                 font-size: 15px;
             }
             button{
@@ -153,37 +159,37 @@ nav{
                 left: 50px;
                 transform: translate(-50%, -50%);
             }
-            input:checked ~ .slide .top{
-                left: 2px;
-                top: 10px;
-                transform: rotate(45deg);
-            }
-            input:checked ~ .slide .midlle{
-                left: 2px;
-                top: 10px;
-                transform: rotate(45deg);
-            }
-            input:checked ~ .slide .buttom{
-                left: 2px;
-                top: 10px;
-                transform: rotate(-45deg);
-            }
+            // input:checked ~ .slide .top{
+            //     left: 2px;
+            //     top: 10px;
+            //     transform: rotate(45deg);
+            // }
+            // input:checked ~ .slide .midlle{
+            //     left: 2px;
+            //     top: 10px;
+            //     transform: rotate(45deg);
+            // }
+            // input:checked ~ .slide .buttom{
+            //     left: 2px;
+            //     top: 10px;
+            //     transform: rotate(-45deg);
+            // }
             input:checked ~ .link{
                 transform: translateX(0);
                 transition: 1s;
-                background: rgb(114, 114, 170);
+                background: $bg-color;
             }
             ul{
                 // flex-direction: row-reverse;
                 font-size: 10px;
-                height: 10vh;
-                width: 91.3%;  
+                height: 15vh;
+                width: 100%;  
             
                 .slide{
                     cursor: pointer;
                     position: absolute;
                     left: 400px;
-                    top: 10px;
+                    top: 2px;
                 }
                 input{
                     display: none;
@@ -239,6 +245,7 @@ nav{
             width: 130px;
             top: 120px;
             left: 65%;
+            display: none;
                 
         }
     }
