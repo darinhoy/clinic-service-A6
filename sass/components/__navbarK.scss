@@ -174,7 +174,7 @@ nav{
                 background: rgb(114, 114, 170);
             }
             ul{
-                flex-direction: row-reverse;
+                // flex-direction: row-reverse;
                 font-size: 10px;
                 height: 10vh;
                 width: 91.3%;  
@@ -182,7 +182,7 @@ nav{
                 .slide{
                     cursor: pointer;
                     position: absolute;
-                    left: 15px;
+                    left: 400px;
                     top: 10px;
                 }
                 input{
@@ -193,13 +193,14 @@ nav{
                 .link{
                     display: block;
                     box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
-                    height: 100vh;
+                    height: 50vh;
+                    width: 100%;
                     position: absolute;
                     padding-top: 30px;
                     top: 0;
                     left: 0;
                     z-index: -1;
-                    transform: translateX(-180px);
+                    transform: translateY(-280px);
                     transition: 1s;
                     li{
                        

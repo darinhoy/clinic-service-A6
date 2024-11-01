@@ -159,7 +159,6 @@ nav .doctor {
     background: rgb(114, 114, 170);
   }
   nav label ul {
-    flex-direction: row-reverse;
     font-size: 10px;
     height: 10vh;
     width: 91.3%;
@@ -167,7 +166,7 @@ nav .doctor {
   nav label ul .slide {
     cursor: pointer;
     position: absolute;
-    left: 15px;
+    left: 400px;
     top: 10px;
   }
   nav label ul input {
@@ -176,13 +175,14 @@ nav .doctor {
   nav label ul .link {
     display: block;
     box-shadow: 0 0 10px rgb(0, 0, 0);
-    height: 100vh;
+    height: 50vh;
+    width: 100%;
     position: absolute;
     padding-top: 30px;
     top: 0;
     left: 0;
     z-index: -1;
-    transform: translateX(-180px);
+    transform: translateY(-280px);
     transition: 1s;
   }
   nav label ul .link li a {
@@ -606,15 +606,16 @@ body {
     align-items: center;
     width: 100%;
     height: 40vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .grid-container-footer .logo-footer .lg-footer img {
     display: none;
   }
   .grid-container-footer .logo-footer .button-footer {
     display: none;
+    margin-bottom: 100px;
+  }
+  .grid-container-footer .quick-link {
+    margin-bottom: 30px;
   }
   .grid-container-footer .quick-link h3 {
     font-size: 15px;
@@ -622,11 +623,17 @@ body {
   .grid-container-footer .quick-link p {
     font-size: 10px;
   }
+  .time-work {
+    margin-bottom: 30px;
+  }
   .time-work h3 {
     font-size: 15px;
   }
   .time-work h3 p {
     font-size: 10px;
+  }
+  .get-in-toch {
+    margin-bottom: 33px;
   }
   .get-in-toch h3 {
     font-size: 15px;
