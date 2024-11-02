@@ -3,9 +3,11 @@ nav {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 70vh;
+  background-color: #808cc2;
+  z-index: 1;
 }
 nav ul {
-  background-color: #6686db;
+  background-color: #808cc2;
   opacity: 0.9;
   display: flex;
   justify-content: space-between;
@@ -23,18 +25,23 @@ nav ul .logos img {
   left: 20px;
   width: 80px;
 }
-nav ul li {
+nav ul .link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul .link li {
   list-style-type: none;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-nav ul li a {
+nav ul .link li a {
   text-decoration: none;
   color: #fff;
 }
 nav .paragrab {
-  background: #6686db;
+  background: #5c6594;
   opacity: 0.8;
   padding-top: 20px;
   height: 67vh;
@@ -54,6 +61,10 @@ nav .paragrab button {
   background-color: hsla(180, 97%, 48%, 0.74);
   font-size: 20px;
   cursor: pointer;
+}
+nav .paragrab button:hover {
+  transform: translateX(5px);
+  transition: 0.6s;
 }
 nav .paragrab p {
   width: 50%;
@@ -88,7 +99,7 @@ nav .doctor {
     color: #fff;
   }
   nav .paragrab {
-    background: #6686db;
+    background: #5c6594;
     opacity: 0.8;
     padding-top: 20px;
     height: 48.2vh;
@@ -116,40 +127,50 @@ nav .doctor {
 @media (min-width: 320px) and (max-width: 480px) {
   nav {
     width: 100%;
-    height: 70vh;
   }
   nav ul {
-    font-size: 10px;
-    height: 15vh;
-    width: 100%;
+    width: 70%;
+    padding: 5px;
   }
   nav ul .logos img {
     width: 15%;
+    position: absolute;
+    top: 3px;
   }
-  nav li a {
-    font-size: 20px;
-    margin-top: 30px;
+  nav .link {
+    height: 10vh;
+  }
+  nav .link li a {
+    margin: 10px;
+    font-size: 15px;
   }
   nav .paragrab {
-    width: 50%;
-    height: 40vh;
+    width: 100%;
+    height: 36vh;
   }
   nav .paragrab h1 {
-    font-size: 15px;
+    font-size: 20px;
   }
   nav .paragrab p {
     width: 280px;
+    display: none;
   }
   nav .paragrab button {
-    font-size: 10px;
+    font-size: 15px;
     width: 100px;
-    height: 8vh;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   nav .paragrab p {
     font-size: 10px;
   }
   nav .doctor {
-    display: none;
+    position: absolute;
+    left: 200px;
+    top: 96px;
+    width: 33%;
   }
 }
 .card {
@@ -168,6 +189,14 @@ nav .doctor {
      object-fit: cover;
 }
 
+.card:hover {
+  background: #2c89d8;
+}
+.card:hover img {
+  transform: translateY(-5px);
+  transition: 0.6s;
+}
+
 main {
   padding: 25px;
 }
@@ -180,20 +209,27 @@ main p {
 }
 
 .picher {
-  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 20px;
+  background: #fff;
 }
 .picher img {
-  background: #fff;
   margin: 0 auto;
   padding: 20px;
-  width: 98%;
+  width: 97%;
   height: 80vh;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.picher:hover {
+  background: #2c89d8;
+}
+.picher:hover img {
+  transform: translateY(-5px);
+  transition: 0.6s;
 }
 
 .our {
@@ -228,7 +264,7 @@ h3 {
   top: 0;
   left: 0;
   position: absolute;
-  background: rgba(0, 0, 0, 0.6);
+  background: #5c6594;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -294,7 +330,7 @@ h3 {
   width: 170px;
   font-size: 20px;
   border-radius: 10px;
-  background-color: #6686db;
+  background-color: #5c6594;
   color: #fff;
   border: none;
   cursor: pointer;
@@ -303,7 +339,106 @@ h3 {
   background: dodgerblue;
   padding: 12px;
 }
+.cardes .carda:hover {
+  background: rgba(0, 0, 0, 0.1);
+  transition: 0.6s;
+}
 
+@media (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    width: 100%;
+    height: 10px;
+  }
+  nav ul .logos img {
+    position: absolute;
+    width: 100px;
+    top: 10px;
+  }
+  nav ul li {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  nav .paragrab {
+    background: #5c6594;
+    opacity: 0.8;
+    padding-top: 20px;
+    height: 48.2vh;
+  }
+  nav .paragrab h1 {
+    margin-top: 150px;
+    font-size: 30px;
+  }
+  nav .paragrab button {
+    margin: 20px;
+    height: 50px;
+  }
+  nav .paragrab p {
+    width: 50%;
+    font-size: 20px;
+    margin: 5px 20px;
+  }
+  nav .doctor {
+    width: 290px;
+    position: absolute;
+    top: 177px;
+    left: 60%;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    width: 70%;
+    padding: 5px;
+  }
+  nav ul .logos img {
+    width: 15%;
+    position: absolute;
+    top: 3px;
+  }
+  nav .link {
+    height: 10vh;
+  }
+  nav .link li a {
+    margin: 10px;
+    font-size: 15px;
+  }
+  nav .paragrab {
+    width: 100%;
+    height: 36vh;
+  }
+  nav .paragrab h1 {
+    font-size: 20px;
+  }
+  nav .paragrab p {
+    width: 280px;
+    display: none;
+  }
+  nav .paragrab button {
+    font-size: 15px;
+    width: 100px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .paragrab p {
+    font-size: 10px;
+  }
+  nav .doctor {
+    position: absolute;
+    left: 200px;
+    top: 96px;
+    width: 33%;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .card {
     width: 95%;
@@ -371,37 +506,44 @@ h3 {
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .card {
-    width: 92%;
+    width: 90%;
+    margin-top: -180px;
   }
   .card img {
-    width: 100%;
+    width: 90%;
+    height: 50vh;
   }
   main {
-    text-align: center;
-    width: 89%;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: -40px;
   }
   main p {
-    width: 100%;
-    font-size: 10px;
+    width: 90%;
+    font-size: 20px;
   }
   main h3 {
     font-size: 20px;
   }
   .picher {
-    width: 92%;
+    width: 90%;
   }
   .picher img {
-    width: 95%;
+    width: 90%;
+    height: 50vh;
   }
   .our {
-    width: 89%;
+    margin: 0 auto;
+    width: 80%;
+    margin-top: -40px;
   }
   .our p {
     width: 100%;
-    font-size: 10px;
+    font-size: 20px;
   }
   .our-value {
-    width: 98%;
+    width: 80%;
+    margin: 0 auto;
   }
   .our-value .cards {
     width: 80px;
@@ -410,30 +552,32 @@ h3 {
     font-size: 10px;
   }
   .our-value .cards img {
-    width: 50px;
+    width: 40px;
   }
   .team {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   .cardes {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
   .cardes .carda {
     width: 90%;
-    height: 70vh;
+    height: 50vh;
   }
   .cardes .carda img {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
   }
   .cardes .carda .icon .fa-icon {
     font-size: 10px;
     border-radius: 25px;
   }
   .cardes .carda h2 {
-    font-size: 15px;
+    font-size: 20px;
   }
   .cardes .carda button {
     width: 200px;
@@ -445,6 +589,90 @@ h3 {
     font-size: 10px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+  .grid-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+  }
+  .grid-container-footer .logo-footer .button-footer {
+    font-size: 20px;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .grid-container-footer .quick-link {
+    margin-bottom: 30px;
+  }
+  .grid-container-footer .quick-link h3 {
+    font-size: 30px;
+  }
+  .grid-container-footer .quick-link p {
+    font-size: 20px;
+  }
+  .time-work {
+    margin-bottom: 30px;
+  }
+  .time-work h3 {
+    font-size: 30px;
+  }
+  .time-work h3 p {
+    font-size: 20px;
+  }
+  .get-in-toch {
+    margin-bottom: 33px;
+  }
+  .get-in-toch h3 {
+    font-size: 30px;
+  }
+  .get-in-toch p {
+    font-size: 20px;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .grid-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 20vh;
+  }
+  .grid-container-footer .logo-footer .lg-footer img {
+    display: none;
+  }
+  .grid-container-footer .logo-footer .button-footer {
+    display: none;
+    margin-bottom: 100px;
+  }
+  .grid-container-footer .quick-link {
+    margin-bottom: 30px;
+  }
+  .grid-container-footer .quick-link h3 {
+    font-size: 15px;
+  }
+  .grid-container-footer .quick-link p {
+    font-size: 10px;
+  }
+  .time-work {
+    margin-bottom: 30px;
+  }
+  .time-work h3 {
+    font-size: 15px;
+  }
+  .time-work h3 p {
+    font-size: 10px;
+  }
+  .get-in-toch {
+    margin-bottom: 33px;
+  }
+  .get-in-toch h3 {
+    font-size: 15px;
+  }
+  .get-in-toch p {
+    font-size: 10px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -452,7 +680,7 @@ h3 {
 }
 
 body {
-  background-color: #6686db;
+  background-color: #808cc2;
   color: #fff;
 }
 
@@ -474,7 +702,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   border: none;
-  background-color: #6686db;
+  background-color: #5c6594;
   color: #fff;
   cursor: pointer;
 }
@@ -545,89 +773,4 @@ nav .get-in-toch h3 {
 }
 nav .get-in-toch p {
   font-size: 15px;
-}
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  .grid-container-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 30vh;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    font-size: 20px;
-    width: 150px;
-    border-radius: 15px;
-  }
-  .grid-container-footer .quick-link {
-    margin-bottom: 30px;
-  }
-  .grid-container-footer .quick-link h3 {
-    font-size: 30px;
-  }
-  .grid-container-footer .quick-link p {
-    font-size: 20px;
-  }
-  .time-work {
-    margin-bottom: 30px;
-  }
-  .time-work h3 {
-    font-size: 30px;
-  }
-  .time-work h3 p {
-    font-size: 20px;
-  }
-  .get-in-toch {
-    margin-bottom: 33px;
-  }
-  .get-in-toch h3 {
-    font-size: 30px;
-  }
-  .get-in-toch p {
-    font-size: 20px;
-  }
-}
-@media (max-width: 480px) {
-  .grid-container-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40vh;
-  }
-  .grid-container-footer .logo-footer .lg-footer img {
-    display: none;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    display: none;
-    margin-bottom: 100px;
-  }
-  .grid-container-footer .quick-link {
-    margin-bottom: 30px;
-  }
-  .grid-container-footer .quick-link h3 {
-    font-size: 15px;
-  }
-  .grid-container-footer .quick-link p {
-    font-size: 10px;
-  }
-  .time-work {
-    margin-bottom: 30px;
-  }
-  .time-work h3 {
-    font-size: 15px;
-  }
-  .time-work h3 p {
-    font-size: 10px;
-  }
-  .get-in-toch {
-    margin-bottom: 33px;
-  }
-  .get-in-toch h3 {
-    font-size: 15px;
-  }
-  .get-in-toch p {
-    font-size: 10px;
-  }
 }/*# sourceMappingURL=main.css.map */

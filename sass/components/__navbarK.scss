@@ -4,8 +4,10 @@ nav{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 70vh; 
+    background-color: #808cc2;
+    z-index: 1;
     ul{
-        background-color: #6686db;
+        background-color: #808cc2;
         opacity: 0.9;
         display: flex;
         justify-content:space-between;
@@ -18,21 +20,27 @@ nav{
         padding: 10px;
         .logos{
             img{
+                
                 position: absolute;
                 top: -4px;
                 left: 20px;
                 width: 80px;
             }
         }
+        .link{
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-        li{
-            list-style-type: none;
-            @include center();
-            a{
-                text-decoration: none;
-                color: $text-color;
-
-            }  
+        
+            li{
+                list-style-type: none;
+                @include center();
+                a{
+                    text-decoration: none;
+                    color: $text-color;  
+                }  
+            }
         }
     }
     .paragrab{
@@ -55,6 +63,10 @@ nav{
             background-color: hsla(180, 97%, 48%, 0.74);
             font-size: 20px;
             cursor: pointer;
+        }
+        button:hover{
+            transform: translateX(5px);
+            transition: 0.6s;
         }
         p{
             width: 50%  ;
@@ -127,48 +139,56 @@ nav{
 @media (min-width: 320px) and (max-width: 480px) {
     nav{
         width: 100%;
-        height: 70vh;  
         ul{
-            font-size: 10px;
-            height: 15vh;
-            width: 100%;  
-            
+            width: 70%;
+            padding: 5px;
             .logos{
                 img{
                     width: 15%;
+                    position: absolute;
+                    top: 3px;
                 }
-                
             }
         }
-               
+        .link{
+            height: 10vh;
+            
             li{        
                 a{
-                    font-size: 20px;
-                    margin-top: 30px;
-                
-                            
+                    margin: 10px;
+                    font-size: 15px; 
+                    
                 }
-            }
+                
+            }  
+        }
         .paragrab{
-            width: 50%;
-            height:40vh;
+            width: 100%;
+            height:36vh;
             h1{
-                font-size: 15px;
+                font-size: 20px;
             }
             p{
                 width: 280px;
+                display: none;
             }
             button{
-                font-size: 10px;
+                font-size: 15px;
                 width: 100px;
-                height: 8vh;
+                height: 5vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
             }
             p{
                 font-size: 10px;
             }
         }
         .doctor{
-            display: none;
+            position: absolute;
+            left: 200px;
+            top: 96px;
+            width: 33%;
         }
         
     }
