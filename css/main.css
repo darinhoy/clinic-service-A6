@@ -652,17 +652,18 @@ nav .get-in-toch p {
 }
 
 nav {
-  background: #808cc2;
+  background: #2c89d8;
   display: flex;
   justify-content: space-between​​​​;
 }
 
 ul {
   list-style-type: none;
+  position: fixed;
   display: flex;
   border-bottom: 1px solid lightblue;
   justify-content: space-between;
-  background: #808cc2;
+  background: #2c89d8;
   height: 10vh;
   width: 100%;
   padding: 7px;

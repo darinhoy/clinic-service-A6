@@ -1,5 +1,5 @@
 // Responsive-Mobile
-@media(max-width:480px) {
+@media(max-width:480px){
     nav {
         background: $bg-navbar;
        @include text-center-nav;
@@ -13,21 +13,18 @@
         justify-content: space-between;
         #active{
             background: hsl(179, 77%, 53%);
-            // padding: 5px;
-        }
+            }
         .hello{
             display: flex;
 
             li a {
-                font-size: 15px;
-                font-weight: bold;
+                font-size: 10px; 
                 color: $color-nav;
                 text-decoration: none;
         
             }
         }
         li{
-            padding: 15px;
             img{
                 width: 50px;  
                 margin-top: -23px;       
@@ -110,7 +107,7 @@
            
     
             .choes-1{
-                font-size: 9px;
+                font-size: 10px;
             }
             .choes-2{
                 margin-left: 2%;
@@ -219,62 +216,36 @@
 
     .grid-container-footer{
         display: grid;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(3,1fr);
         padding: 10px;
         margin-top: 20px;
         background:     #232b52;
         color: white;
         width: 100%;
-        .logo-footer{
+            .logo-footer{
+                margin-left: -20px;
     
             .button-footer{
-                border: none;
-                font-weight: bold;
-                color: white;
-                background: #2be3e0;
-                padding: 10px;
-                margin: 10px;
-                border-radius: 5px;
-                margin-left: 20px;
-                font-size: 5px;
+                display: none;
             }
             .lg-footer img{
-                margin-bottom: 10px;
-                width: 60px;
-                margin-left: 15px;
-                border-radius:100%;
-                overflow: hidden;
+                display: none;
             }
         }
         .quick-link{
-            display: grid;
-            row-gap: 10px;
-            margin: 10px;
             font-size: 10px;
+            margin-left: -10px;
+
         }
         .time-work{
-            display: grid;
-            row-gap: 10px;
             font-size: 10px;
-            margin: 10px;
+            margin-left: -10px;
         }
         .get-in-toch{
-            display: grid;
-            row-gap: 10px;
-            margin: 10px;
             font-size: 10px;
-
-    
+            margin-left: -20px;
             .bt-footer{
-                border: none;
-                font-weight: bold;
-                color: white;
-                background: #2be3e0;
-                padding: 10px;
-                margin: 10px;
-                border-radius: 5px;
-                margin-left: -1px;
-                font-size: 3px;
+               display: none;
             }
         }
 }
@@ -552,7 +523,7 @@
     }
     
 }
-@media(max-width:1200px) {
+@media(max-width:1200px){
     nav {
         background: $bg-navbar;
        @include text-center-nav;

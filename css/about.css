@@ -5,23 +5,24 @@
 }
 
 body {
-  background: #5c6594;
+  background: #98a1cc;
   color: white;
   font-family: sans-serif;
 }
 
 nav {
-  background: #808cc2;
+  background: #2c89d8;
   display: flex;
   justify-content: space-between​​​​;
 }
 
 ul {
   list-style-type: none;
+  position: fixed;
   display: flex;
   border-bottom: 1px solid lightblue;
   justify-content: space-between;
-  background: #808cc2;
+  background: #2c89d8;
   height: 10vh;
   width: 100%;
   padding: 7px;
@@ -147,19 +148,19 @@ ul li a {
 }
 .container .chioes .choes-2 {
   margin-left: 2%;
-  background: #808cc2;
+  background: #2c89d8;
   padding: 10px;
   border-radius: 100%;
 }
 .container .chioes .choes-3 {
   margin-left: 5%;
-  background: #808cc2;
+  background: #2c89d8;
   padding: 10px;
   border-radius: 100%;
 }
 .container .chioes .choes-4 {
   margin-left: 3%;
-  background: #808cc2;
+  background: #2c89d8;
   padding: 10px;
   border-radius: 100%;
 }
@@ -171,7 +172,7 @@ ul li a {
 
 @media (max-width: 480px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -190,13 +191,9 @@ ul li a {
     display: flex;
   }
   ul .hello li a {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 10px;
     color: white;
     text-decoration: none;
-  }
-  ul li {
-    padding: 15px;
   }
   ul li img {
     width: 50px;
@@ -266,7 +263,7 @@ ul li a {
     font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 9px;
+    font-size: 10px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -362,64 +359,41 @@ ul li a {
   }
   .grid-container-footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     margin-top: 20px;
     background: #232b52;
     color: white;
     width: 100%;
   }
+  .grid-container-footer .logo-footer {
+    margin-left: -20px;
+  }
   .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 5px;
+    display: none;
   }
   .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 60px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
+    display: none;
   }
   .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
     font-size: 10px;
-    margin: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -20px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 3px;
+    display: none;
   }
 }
 @media (max-width: 768px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -659,7 +633,7 @@ ul li a {
 }
 @media (max-width: 1200px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -723,7 +697,7 @@ ul li a {
 
 @media (max-width: 480px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -742,13 +716,9 @@ ul li a {
     display: flex;
   }
   ul .hello li a {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 10px;
     color: white;
     text-decoration: none;
-  }
-  ul li {
-    padding: 15px;
   }
   ul li img {
     width: 50px;
@@ -818,7 +788,7 @@ ul li a {
     font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 9px;
+    font-size: 10px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -914,64 +884,41 @@ ul li a {
   }
   .grid-container-footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     margin-top: 20px;
     background: #232b52;
     color: white;
     width: 100%;
   }
+  .grid-container-footer .logo-footer {
+    margin-left: -20px;
+  }
   .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 5px;
+    display: none;
   }
   .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 60px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
+    display: none;
   }
   .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
     font-size: 10px;
-    margin: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -20px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 3px;
+    display: none;
   }
 }
 @media (max-width: 768px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -1211,7 +1158,7 @@ ul li a {
 }
 @media (max-width: 1200px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -1265,7 +1212,7 @@ ul li a {
 
 @media (max-width: 480px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -1284,13 +1231,9 @@ ul li a {
     display: flex;
   }
   ul .hello li a {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 10px;
     color: white;
     text-decoration: none;
-  }
-  ul li {
-    padding: 15px;
   }
   ul li img {
     width: 50px;
@@ -1360,7 +1303,7 @@ ul li a {
     font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 9px;
+    font-size: 10px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -1456,64 +1399,41 @@ ul li a {
   }
   .grid-container-footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     margin-top: 20px;
     background: #232b52;
     color: white;
     width: 100%;
   }
+  .grid-container-footer .logo-footer {
+    margin-left: -20px;
+  }
   .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 5px;
+    display: none;
   }
   .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 60px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
+    display: none;
   }
   .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
     font-size: 10px;
-    margin: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -20px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 3px;
+    display: none;
   }
 }
 @media (max-width: 768px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -1753,7 +1673,7 @@ ul li a {
 }
 @media (max-width: 1200px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -1809,7 +1729,7 @@ ul li a {
 
 @media (max-width: 480px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -1828,13 +1748,9 @@ ul li a {
     display: flex;
   }
   ul .hello li a {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 10px;
     color: white;
     text-decoration: none;
-  }
-  ul li {
-    padding: 15px;
   }
   ul li img {
     width: 50px;
@@ -1904,7 +1820,7 @@ ul li a {
     font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 9px;
+    font-size: 10px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2000,64 +1916,41 @@ ul li a {
   }
   .grid-container-footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     margin-top: 20px;
     background: #232b52;
     color: white;
     width: 100%;
   }
+  .grid-container-footer .logo-footer {
+    margin-left: -20px;
+  }
   .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 5px;
+    display: none;
   }
   .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 60px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
+    display: none;
   }
   .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
     font-size: 10px;
-    margin: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -20px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 3px;
+    display: none;
   }
 }
 @media (max-width: 768px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -2297,7 +2190,7 @@ ul li a {
 }
 @media (max-width: 1200px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -2376,7 +2269,7 @@ ul li a {
 
 @media (max-width: 480px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -2395,13 +2288,9 @@ ul li a {
     display: flex;
   }
   ul .hello li a {
-    font-size: 15px;
-    font-weight: bold;
+    font-size: 10px;
     color: white;
     text-decoration: none;
-  }
-  ul li {
-    padding: 15px;
   }
   ul li img {
     width: 50px;
@@ -2471,7 +2360,7 @@ ul li a {
     font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 9px;
+    font-size: 10px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2567,64 +2456,41 @@ ul li a {
   }
   .grid-container-footer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     padding: 10px;
     margin-top: 20px;
     background: #232b52;
     color: white;
     width: 100%;
   }
+  .grid-container-footer .logo-footer {
+    margin-left: -20px;
+  }
   .grid-container-footer .logo-footer .button-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: 20px;
-    font-size: 5px;
+    display: none;
   }
   .grid-container-footer .logo-footer .lg-footer img {
-    margin-bottom: 10px;
-    width: 60px;
-    margin-left: 15px;
-    border-radius: 100%;
-    overflow: hidden;
+    display: none;
   }
   .grid-container-footer .quick-link {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .time-work {
-    display: grid;
-    row-gap: 10px;
     font-size: 10px;
-    margin: 10px;
+    margin-left: -10px;
   }
   .grid-container-footer .get-in-toch {
-    display: grid;
-    row-gap: 10px;
-    margin: 10px;
     font-size: 10px;
+    margin-left: -20px;
   }
   .grid-container-footer .get-in-toch .bt-footer {
-    border: none;
-    font-weight: bold;
-    color: white;
-    background: #2be3e0;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5px;
-    margin-left: -1px;
-    font-size: 3px;
+    display: none;
   }
 }
 @media (max-width: 768px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
@@ -2864,7 +2730,7 @@ ul li a {
 }
 @media (max-width: 1200px) {
   nav {
-    background: #808cc2;
+    background: #2c89d8;
     display: flex;
     justify-content: space-between​​​​;
   }
