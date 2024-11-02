@@ -1,21 +1,27 @@
-.content-pointment{
+@import"../mixincontact/_mixinappoinment";
+.content-pointment {
     margin-top: 20px;
-    h1,p{
-    text-align: center;
-    color: $bg-color-text;     
+
+    h1,
+    p {
+        text-align: center;
+        color: $bg-color-text;
     }
-    p{
+
+    p {
         margin-bottom: 20px;
         width: 90%;
-        margin:   0  auto;
+        margin: 0 auto;
     }
-    p{
+
+    p {
         margin-bottom: 20px;
     }
-    
+
 
 }
-.make-appointment{
+
+.make-appointment {
     background-color: #6176d4c7;
     padding: 20px;
     width: 87%;
@@ -23,73 +29,73 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: 3fr 2fr;
-    form{
-       margin-top: 20px;
-       .user{
-            margin-bottom:10px ;
-        
-            .peoples{
-                position: absolute;
-                top: 177%;
-                left: 29%;
-                
-            }
-            .people{
-                position: absolute;
-                top: 177%;
-                left: 54.5%;
-            }
-
-       }
-       .number-phone{
-        margin-bottom:10px ;
-            .fa-phone-volume{
-                position: absolute;
-                top: 184.4%;
-                left: 28.7%;
-            }
-            .fa-lock{
-                position: absolute;
-                top: 184.3%;
-                left: 54.5%;
-            }
-
-       }
-       .email{
-            margin-bottom: 10px;
-       }
-       .message{
-        margin-bottom: 10px;
-       }
-       .name ,.number,.password{
-        padding: 10px;
-        width: 44%;
-        margin-right: 10px;
-        outline-color:rgb(135, 135, 224);
-        border-radius: 10px;
-        border: none;
-        background-color: gainsboro;
-
-       }
-       .address-email{
-        padding: 10px;
-        width: 93.1%;
-        outline-color:rgb(135, 135, 224);
-        border-radius: 10px;
-    border: none;
-    background-color: gainsboro;
-       }
-       .text{
-        width: 93.1%;
-        padding: 10px;
-        height: 15vh;
-        outline-color:rgb(135, 135, 224);
-        border-radius: 10px;
-    border: none;
-    background-color: gainsboro;
-       }
+    .form-letf{
+        h3{
+        color: #fff;         
+        }
+         
     }
-    button{
+    
+    form {
+        margin-top: 20px;
+
+        .user {
+            margin-bottom: 10px;
+
+            .peoples {
+                @include form-icon(177%,29%)
+
+            }
+
+            .people {
+                @include form-icon(177%,54.5%);
+               
+            }
+
+        }
+
+        .number-phone {
+            margin-bottom: 10px;
+
+            .fa-phone-volume {
+                
+                @include form-icon(184.4%,28.7%);
+               
+            }
+
+            .fa-lock {
+                @include form-icon(184.5%,54.4%);
+            }
+
+        }
+
+        .email,.message {
+            margin-bottom: 10px;
+        }
+        .name,
+        .number,
+        .password {
+           @include completed;
+
+        }
+
+        .address-email {
+            @include completed-location;
+        }
+
+        .text {
+            @include completed-location;
+            height: 15vh;
+            
+        
+        }
+        .name:hover{
+            background-color: #fff;
+        }
+        }
+    }
+
+    button {
         padding: 10px;
         text-align: center;
         width: 96.4%;
@@ -98,10 +104,15 @@
         border-radius: 10px;
         color: #fff;
         font-weight: bold;
+        a{
+            text-decoration: none;
+            color: #fff;
+        }
     }
-    .application{
-        border-left: 3px solid ;
-        .app{
+    .application {
+        border-left: 3px solid;
+
+        .app {
             border: 1px solid black;
             margin: auto;
             width: 80%;
@@ -110,12 +121,17 @@
             border: none;
             background-color: gainsboro;
             border-radius: 30px;
-            
-            img{
+
+            img {
                 width: 10%;
                 vertical-align: middle;
                 margin-right: 10px;
             }
         }
+        .app:hover{
+            transform: translateY(-5px);
+            
+            transition: 0.3s;
+            background-color:white;
+        }
     }
-}

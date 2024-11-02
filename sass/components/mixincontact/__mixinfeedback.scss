@@ -1,0 +1,23 @@
+@mixin feedback-styles {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    h1, p {
+        text-align: center;
+        color: $bg-color-text;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+}
+@mixin button-styles($bg-color:rgb(58, 181, 223)){
+                padding: 10px;
+                width: 45%;
+                font-family: sans-serif;
+                background-color:rgb(58, 181, 223);
+                border: none;
+                border-radius: 10px;
+            a{
+                text-decoration: none; 
+                color: #000;
+            }
+}

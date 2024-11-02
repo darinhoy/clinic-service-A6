@@ -1,0 +1,6 @@
+@mixin grid-font($margin:10px){
+    display: grid;
+    row-gap: 10px;
+    margin: $margin;
+}
+
