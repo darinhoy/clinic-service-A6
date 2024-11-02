@@ -370,3 +370,95 @@
         
      }
 }
+// Responsive-Mobile
+@media(max-width:480px){
+    nav {
+        background: $bg-navbar;
+       @include text-center-nav;
+       a:hover{
+        text-decoration: underline;
+    }
+    }
+    ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-between;
+        #active{
+            background: hsl(179, 77%, 53%);
+            }
+        .hello{
+            display: flex;
+
+            li a {
+                font-size: 10px; 
+                color: $color-nav;
+                text-decoration: none;
+        
+            }
+        }
+        li{
+            img{
+                width: 50px;  
+                margin-top: -23px;       
+            }
+        }
+      
+    }
+    .service h1{
+        font-size: 15px;
+        background: #808cc2;
+        padding: 20px;
+        opacity: 0.8;
+        margin-top: -30px;
+    }
+    .list{
+        h1{
+            font-size: 20px;
+        }
+        margin-top: 20px;
+        text-decoration: underline;
+        margin-left: 70px;
+    }
+    .grid-container{
+        display: grid;
+        grid-template-columns: repeat(2,3fr);
+        grid-gap: 40px;
+        padding: 10px;
+        margin-top: 20px;
+    
+       .item{
+        display: flex;
+        margin-left: 40%;
+    
+         span{
+            margin-left: 20px;
+            font-size: 10px;
+        }
+       }
+    }
+    .parnership {
+        h1{
+            font-size: 20px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .par-p{
+            font-size: 5px;
+            margin-top: 20px;
+            margin: 20px;
+            text-align: justify;
+        }
+    }
+    .logo-partnership{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+
+        .logo-1 img{
+            display: flex;
+            width:30px;
+            border-radius: 100%;
+            margin-left: 40px;
+        }
+    }
+}

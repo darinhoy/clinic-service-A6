@@ -1,0 +1,46 @@
+@import"./_variable";
+.grid-container-footer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 10px;
+    margin-top: 20px;
+    background:     #232b52;
+    color: $color-nav;
+    width: 100%;
+    .logo-footer{
+        .button-footer{
+            border: none;
+            font-weight: bold;
+            color: $color-nav;
+            background: $bg-button;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            margin-left: 20px;
+        }
+        .lg-footer img{
+            margin-bottom: 10px;
+            width: 90px;
+            margin-left: 15px;
+            border-radius:100%;
+            overflow: hidden;
+        }
+    }
+    .quick-link, .time-work, .get-in-toch{
+        @include footer;
+    }
+    .get-in-toch{
+        .bt-footer{
+            border: none;
+            font-weight: bold;
+            color: $color-nav;
+            background: $bg-button;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 5px;
+            margin-left: -1px;
+        }
+    }
+}
+
+@import"./_responsive";

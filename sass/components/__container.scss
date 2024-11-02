@@ -1,0 +1,43 @@
+@import"./_variable";
+.container{
+    h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .chioes{
+        margin: 20px;
+        display: flex;
+        justify-content: space-around;
+       
+
+        .choes-1{
+            font-size: 20px;
+        }
+        .choes-2{
+            margin-left: 2%;
+            background: $bg-navbar;
+            padding: 10px;
+            border-radius: 100%;
+        }
+        .choes-3{
+            margin-left: 5%;
+            background: $bg-navbar;
+
+            padding: 10px;
+            border-radius: 100%;
+        }
+        .choes-4{
+            margin-left: 3%;
+            background: $bg-navbar;
+            padding: 10px;
+            border-radius: 100%;
+        }
+    }
+    .line{
+        border-bottom:2px solid white ;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
+
+@import"./_responsive";

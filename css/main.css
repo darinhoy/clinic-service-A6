@@ -1,3 +1,4 @@
+@charset "UTF-8";
 nav {
   background-image: url(/images/home/img3.png);
   background-repeat: no-repeat;
@@ -773,4 +774,134 @@ nav .get-in-toch h3 {
 }
 nav .get-in-toch p {
   font-size: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  background: #2c89d8;
+  display: flex;
+  justify-content: space-between​​​​;
+}
+
+ul {
+  list-style-type: none;
+  position: fixed;
+  display: flex;
+  border-bottom: 1px solid lightblue;
+  justify-content: space-between;
+  background: #2c89d8;
+  height: 10vh;
+  width: 100%;
+  padding: 7px;
+}
+ul #active {
+  background: hsl(179, 77%, 53%);
+  padding: 10px;
+}
+ul .hello {
+  display: flex;
+}
+ul li {
+  padding: 15px;
+}
+ul li img {
+  width: 70px;
+  margin-top: -25px;
+}
+ul li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.service h1 {
+  position: absolute;
+  top: 35%;
+  background: #808cc2;
+  padding: 20px;
+  left: 20px;
+  opacity: 0.8;
+}
+
+.list {
+  margin-top: 20px;
+  text-decoration: underline;
+  margin-left: 70px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+  grid-gap: 40px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.grid-container .item {
+  display: flex;
+  margin-left: 40%;
+}
+.grid-container .item span {
+  margin-left: 20px;
+}
+
+.parnership h1 {
+  margin-top: 20px;
+  text-align: center;
+}
+.parnership .par-p {
+  margin-top: 20px;
+  margin: 10px;
+  text-align: justify;
+}
+
+.logo-partnership {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.logo-partnership .logo-1 img {
+  width: 100px;
+  border-radius: 100%;
+  margin-left: 40px;
+  margin-top: 30px;
+}
+
+.grid-container-footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 10px;
+  margin-top: 20px;
+  background: #2b335c;
+  color: white;
+  width: 100%;
+}
+.grid-container-footer .logo-footer .button-footer {
+  border: none;
+  font-weight: bold;
+  color: white;
+  background: #2be3e0;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.grid-container-footer .quick-link {
+  display: grid;
+  row-gap: 20px;
+  margin: 10px;
+}
+.grid-container-footer .time-work {
+  display: grid;
+  row-gap: 20px;
+  margin: 10px;
+}
+.grid-container-footer .get-in-toch {
+  display: grid;
+  row-gap: 20px;
+  margin: 10px;
 }/*# sourceMappingURL=main.css.map */
