@@ -449,7 +449,7 @@ td:nth-child(odd):hover {
   nav img {
     color: #fff;
     padding: 5px;
-    width: 100%;
+    width: 350%;
     margin-right: -23%;
   }
   .follow {
@@ -583,7 +583,7 @@ td:nth-child(odd):hover {
   .logo,
   img {
     color: #fff;
-    width: 80%;
+    width: 500%;
     margin-right: 15%;
   }
   .logo ul,
