@@ -1,0 +1,16 @@
+@mixin text-center-nav(){
+    display: flex;
+    justify-content: space-between​​​​;
+}
+
+@mixin jcc(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin footer(){
+    display: grid;
+    row-gap: 10px;
+    margin: 10px;
+}

@@ -1,0 +1,17 @@
+@import"./_variable";
+@import"./_mixins";
+.button-1{
+    @include jcc;
+    .center-button{
+        border: none;
+        font-weight: bold;
+        color: $color-nav;
+        background: $bg-button;
+        padding: 15px;
+        border-radius: 10px;
+    }
+    .center-button:hover{
+        background: #232b52;
+    }
+}
+@import"./_responsive";
