@@ -659,7 +659,6 @@ nav {
 
 ul {
   list-style-type: none;
-  position: fixed;
   display: flex;
   border-bottom: 1px solid lightblue;
   justify-content: space-between;

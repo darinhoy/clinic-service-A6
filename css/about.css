@@ -18,7 +18,6 @@ nav {
 
 ul {
   list-style-type: none;
-  position: fixed;
   display: flex;
   border-bottom: 1px solid lightblue;
   justify-content: space-between;
@@ -186,7 +185,6 @@ ul li a {
   }
   ul #active {
     background: hsl(179, 77%, 53%);
-    padding: 5px;
   }
   ul .hello {
     display: flex;
@@ -207,6 +205,7 @@ ul li a {
   .service h1 {
     font-size: 15px;
     background: #808cc2;
+    padding: 20px;
     opacity: 0.8;
     margin-top: -30px;
   }
@@ -264,9 +263,10 @@ ul li a {
     margin: 20px;
     display: flex;
     justify-content: space-around;
+    font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 12px;
+    font-size: 9px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -737,7 +737,6 @@ ul li a {
   }
   ul #active {
     background: hsl(179, 77%, 53%);
-    padding: 5px;
   }
   ul .hello {
     display: flex;
@@ -758,6 +757,7 @@ ul li a {
   .service h1 {
     font-size: 15px;
     background: #808cc2;
+    padding: 20px;
     opacity: 0.8;
     margin-top: -30px;
   }
@@ -815,9 +815,10 @@ ul li a {
     margin: 20px;
     display: flex;
     justify-content: space-around;
+    font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 12px;
+    font-size: 9px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -1278,7 +1279,6 @@ ul li a {
   }
   ul #active {
     background: hsl(179, 77%, 53%);
-    padding: 5px;
   }
   ul .hello {
     display: flex;
@@ -1299,6 +1299,7 @@ ul li a {
   .service h1 {
     font-size: 15px;
     background: #808cc2;
+    padding: 20px;
     opacity: 0.8;
     margin-top: -30px;
   }
@@ -1356,9 +1357,10 @@ ul li a {
     margin: 20px;
     display: flex;
     justify-content: space-around;
+    font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 12px;
+    font-size: 9px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -1821,7 +1823,6 @@ ul li a {
   }
   ul #active {
     background: hsl(179, 77%, 53%);
-    padding: 5px;
   }
   ul .hello {
     display: flex;
@@ -1842,6 +1843,7 @@ ul li a {
   .service h1 {
     font-size: 15px;
     background: #808cc2;
+    padding: 20px;
     opacity: 0.8;
     margin-top: -30px;
   }
@@ -1899,9 +1901,10 @@ ul li a {
     margin: 20px;
     display: flex;
     justify-content: space-around;
+    font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 12px;
+    font-size: 9px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;
@@ -2387,7 +2390,6 @@ ul li a {
   }
   ul #active {
     background: hsl(179, 77%, 53%);
-    padding: 5px;
   }
   ul .hello {
     display: flex;
@@ -2408,6 +2410,7 @@ ul li a {
   .service h1 {
     font-size: 15px;
     background: #808cc2;
+    padding: 20px;
     opacity: 0.8;
     margin-top: -30px;
   }
@@ -2465,9 +2468,10 @@ ul li a {
     margin: 20px;
     display: flex;
     justify-content: space-around;
+    font-size: 10px;
   }
   .container .chioes .choes-1 {
-    font-size: 12px;
+    font-size: 9px;
   }
   .container .chioes .choes-2 {
     margin-left: 2%;

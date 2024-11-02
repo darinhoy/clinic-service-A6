@@ -13,7 +13,7 @@
         justify-content: space-between;
         #active{
             background: hsl(179, 77%, 53%);
-            padding: 5px;
+            // padding: 5px;
         }
         .hello{
             display: flex;
@@ -38,7 +38,7 @@
     .service h1{
         font-size: 15px;
         background: #808cc2;
-        // padding: 20px;
+        padding: 20px;
         opacity: 0.8;
         margin-top: -30px;
     }
@@ -106,10 +106,11 @@
             margin: 20px;
             display: flex;
             justify-content: space-around;
+            font-size: 10px;
            
     
             .choes-1{
-                font-size: 12px;
+                font-size: 9px;
             }
             .choes-2{
                 margin-left: 2%;
