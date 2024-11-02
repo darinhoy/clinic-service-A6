@@ -264,7 +264,7 @@ h3 {
   top: 0;
   left: 0;
   position: absolute;
-  background: #5c6594;
+  background: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
