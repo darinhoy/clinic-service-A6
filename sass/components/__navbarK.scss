@@ -4,13 +4,7 @@ nav{
     background-repeat: no-repeat;
     background-size: 100%;
     height: 70vh; 
-    label{
-        input{
-            display: none;
-        }
-    }
     ul{
-    
         background-color: #6686db;
         opacity: 0.9;
         display: flex;
@@ -19,60 +13,55 @@ nav{
         font-size: 25px;
         width: 100%;
         position: fixed;
+        top: 0;
         z-index: 1;
+        padding: 10px;
+        .logos{
+            img{
+                position: absolute;
+                top: -4px;
+                left: 20px;
+                width: 80px;
+            }
+        }
 
-        img{
-            width: 45%;
-        }
-        .link{
-            display: flex;
-        }
         li{
-         
             list-style-type: none;
             @include center();
             a{
                 text-decoration: none;
-                margin-left: 40px;
-                margin-right: 40px;
                 color: $text-color;
-                font-size: 20px;
-                
+
             }  
         }
     }
     .paragrab{
-        margin: 0;
         background: $bg-color;
         opacity: 0.8;
+        padding-top: 20px;
         height: 67vh;
-        padding: 10px;
-        
-
-
-    }
-    h1{
-        margin: 110px 20px 0;
-        font-size: 40px;
-        // margin: 5px 20px;
-    }
-    button{
-        
-        margin: 5px 20px;
-        padding: 10px;
-        width: 150px;
-        height: 10vh;
-        border-radius: 20px;
-        border: none;
-        color: $text-color;
-        background-color: hsla(180, 97%, 48%, 0.74);
-        font-size: 20px;
-        cursor: pointer;
-    }
+        h1{
+            margin: 110px 20px 0;
+            font-size: 30px;
+        }
+        button{
+            margin: 5px 20px;
+            padding: 10px;
+            width: 150px;
+            height: 10vh;
+            border-radius: 20px;
+            border: none;
+            color: $text-color;
+            background-color: hsla(180, 97%, 48%, 0.74);
+            font-size: 20px;
+            cursor: pointer;
+        }
         p{
+            width: 50%  ;
             font-size: 20px;
             margin: 5px 20px;
         }
+    }
         .doctor{
             width: 270px;
             position: absolute;
@@ -82,171 +71,105 @@ nav{
         }
  
     }
-@media(max-width:768px){
+@media(min-width:768px) and (max-width:1024px){
     nav{
         width: 100%;
-        height: 75vh; 
-        label{
-            input{
-                display: none;
-            }
-        }
+        height: 10px;
         ul{
-            font-size: 15px;
-            height: 15vh;
-            width: 100%;
-            li{
-                a{
-                    font-size: 20px;
+            .logos{
+                img{
+                    position: absolute;
+                    width: 100px;
+                    top: 10px;
                 }
             }
-            img{
-                width: 40%;
-                margin-bottom: 5px;
+    
+            li{
+                list-style-type: none;
+                @include center();
+                a{
+                    text-decoration: none;
+                    color: $text-color;
+    
+                }  
             }
         }
         .paragrab{
-            height: 70vh;
-            width: 97.4%;
-            h1{
-                margin-top: 70px;
-                font-size: 20px;
-            }
-            p{
-                // margin-bottom: 200px;
-                font-size: 15px;
+            background: $bg-color;
+            opacity: 0.8;
+            padding-top: 20px;
+            height: 48.2vh;
+            
+            h1{ 
+                margin-top: 150px;
+                font-size: 30px;
             }
             button{
-                width: 130px;
-                font-size: 15px;
+                margin: 20px;
+                height: 50px;
+            }
+            p{
+                width: 50%;
+                font-size: 20px;
+                margin: 5px 20px;
             }
         }
-        .doctor{
-            width: 150px;
-            position: absolute;
-            top: 115px;
-            left: 70%;
+            .doctor{
+                width: 290px;
+                position: absolute;
+                top: 177px;
+                left: 60%;
                 
-        }
+            }
      
     }
 }
-@media (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) {
     nav{
         width: 100%;
-        height: 70vh; 
-        label{
-          
-            .slide .common{
-                position: absolute;
-                width: 30px;
-                height: 5px;
-                background-color: rgb(205, 202, 218);
-                border-radius: 20px;
-            }
-            .slide .top{
-                top: 30px;
-                left: 50px;
-                transform: translate(-50%, -50%);
-            }
-            .slide .midlle{
-                top: 40px;
-                left: 50px;
-                transform: translate(-50%, -50%);
-            }
-            .slide .buttom {
-                top: 20px;
-                left: 50px;
-                transform: translate(-50%, -50%);
-            }
-            // input:checked ~ .slide .top{
-            //     left: 2px;
-            //     top: 10px;
-            //     transform: rotate(45deg);
-            // }
-            // input:checked ~ .slide .midlle{
-            //     left: 2px;
-            //     top: 10px;
-            //     transform: rotate(45deg);
-            // }
-            // input:checked ~ .slide .buttom{
-            //     left: 2px;
-            //     top: 10px;
-            //     transform: rotate(-45deg);
-            // }
-            input:checked ~ .link{
-                transform: translateX(0);
-                transition: 1s;
-                background: $bg-color;
-            }
-            ul{
-                // flex-direction: row-reverse;
-                font-size: 10px;
-                height: 15vh;
-                width: 100%;  
+        height: 70vh;  
+        ul{
+            font-size: 10px;
+            height: 15vh;
+            width: 100%;  
             
-                .slide{
-                    cursor: pointer;
-                    position: absolute;
-                    left: 400px;
-                    top: 2px;
-                }
-                input{
-                    display: none;
-                 
-
-                }
-                .link{
-                    display: block;
-                    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
-                    height: 50vh;
-                    width: 100%;
-                    position: absolute;
-                    padding-top: 30px;
-                    top: 0;
-                    left: 0;
-                    z-index: -1;
-                    transform: translateY(-280px);
-                    transition: 1s;
-                    li{
-                       
-                        a{
-                            font-size: 20px;
-                            margin-top: 30px;
-                            
-                        }
-                    }
-
+            .logos{
+                img{
+                    width: 15%;
                 }
                 
             }
         }
-            .paragrab{
-                width: 95.5%;
-                height:45.5vh;
-                display: none;
-                h1{
-                    font-size: 15px;
+               
+            li{        
+                a{
+                    font-size: 20px;
+                    margin-top: 30px;
+                
+                            
                 }
-                p{
-                    width: 280px;
-                }
-                button{
-                    font-size: 10px;
-                    width: 100px;
-                    height: 8vh;
-                }
-                p{
-                    font-size: 10px;
             }
-            
+        .paragrab{
+            width: 50%;
+            height:40vh;
+            h1{
+                font-size: 15px;
+            }
+            p{
+                width: 280px;
+            }
+            button{
+                font-size: 10px;
+                width: 100px;
+                height: 8vh;
+            }
+            p{
+                font-size: 10px;
+            }
         }
         .doctor{
-            width: 130px;
-            top: 120px;
-            left: 65%;
             display: none;
-                
         }
+        
     }
 }

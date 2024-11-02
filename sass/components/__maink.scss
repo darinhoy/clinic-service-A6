@@ -144,21 +144,24 @@ img{
 }
 
 
-@media (max-width:768px){
+@media (min-width:768px) and (max-width: 1024px){
     .card{
         width: 95%;
+        margin-top: -190px;
         img{
             width: 98%;
+            padding: 10px;
+            
         }
     }
     main{
         width: 90%;
         h3{
-            font-size: 20px;
+            font-size: 30 px;
         }
         p{
-            width: 90%;
-            font-size: 15px;
+            width: 100%;
+            font-size: 30px;
         }
     }
     .picher{
@@ -170,11 +173,10 @@ img{
     .our{
         width: 90%;
         h3{
-            font-size: 20px;
+            font-size: 30px;
         }
         p{
-            font-size: 15px;
-            text-align: justify;
+            font-size: 30px;
         }
     }
     .our-value{
@@ -188,11 +190,11 @@ img{
     .team{
         width: 95%;
         h3{
-            font-size: 20px;
+            font-size: 30px;
         }
         p{
             
-            font-size: 10px;
+            font-size: 30px;
         }
     }
     .cardes{
@@ -202,17 +204,17 @@ img{
 
     .carda{
         width: 40%;
-        height: 70vh;
+        height: 35vh;
         img{
-            width: 100px;
-            height: 100px;
+            width: 200px;
+            height: 200px;
         }
         
     }
     
     }
 }
-@media (max-width:480px){
+@media (min-width:320px) and (max-width: 480px){
     .card{
         width: 92%;
     
