@@ -1,9 +1,21 @@
 @media(min-width:768px) and (max-width:1024px) {
+    @import"../mixincontact/_mixinNavcontact";
     nav {
-        border-bottom: 1px solid #fff;
-
+       @include style-Nav;
+        ul{
+            margin-left: 67%;
+            margin-right: 70%
+        }
+        .logo,
+        img {
+            color: #fff;
+           padding: 5px;
+           width: 100%;
+            margin-right: -23%;
+        }
     }
-
+    
+   
     .follow {
         margin-left: -15px;
         margin-right: 35px;

@@ -1,3 +1,4 @@
+@import"../mixincontact/_mixinfooter";
 .grid-container-footer {
     display: grid;
     grid-template-columns: repeat(4,1fr);
@@ -15,9 +16,12 @@
             padding: 10px;
             margin: 10px;
             border-radius: 5px;
-            margin-left: 35px;  
+            margin-left: 20px;
+            width: 35%;  
         }
-        
+        .button-footer:hover{
+            background-color: $bg-color-nav;
+        }
         .lg-footer img{
             margin-top: 8px;
             width: 100px;
@@ -26,20 +30,17 @@
         }
     }
     .quick-link{
-        display: grid;
-        row-gap: 10px;
-        margin: 10px;
+        @include grid-font(10px);
     }
     .time-work{
-        display: grid;
-        row-gap: 10px;
-        margin: 10px;
+        @include grid-font(10px);
     }
     .get-in-toch{
-        display: grid;
-        row-gap: 10px;
-        margin: 10px;
-
+        @include grid-font(10px);
+        p:hover{
+            text-decoration: none;
+        }
+     
         .bt-footer{
             border: none;
             font-weight: bold;
@@ -49,7 +50,13 @@
             margin: 10px;
             border-radius: 5px;
             margin-left: -1px;
+            width: 40%;
+        }
+        .bt-footer:hover{
+            background-color: $bg-color-nav;
         }
     }
-
+        p:hover{
+            text-decoration: underline
+        }
 }

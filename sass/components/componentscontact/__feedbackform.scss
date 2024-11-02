@@ -1,16 +1,9 @@
+@import"../mixincontact/_mixinfeedback";
 .font{
-    h1,p{
-        text-align: center;
-        color: $bg-color-text;
-    }
-    p{
-        margin-bottom: 20px;
-    }
+   @include feedback-styles();
 }
 .feedback{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    @extend .font;
+    @include feedback-styles();
     form{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -25,23 +18,14 @@
             display: grid;
             justify-content: center;
             h4{
-                color: #fff;
+                color: $bg-color-text;
             }
             .rat,.ne,.em{
                 margin-top: 5px;
-                color: #fff;
+                color: $bg-color-text;
             }
             button{
-                padding: 10px;
-                width: 45%;
-                font-family: sans-serif;
-                background-color:rgb(58, 181, 223);
-                border: none;
-                border-radius: 10px;
-            a{
-                text-decoration: none; 
-                color: #000;
-            }
+                @include button-styles(rgb(58, 181, 223))
             }
         }
     }
@@ -58,7 +42,7 @@
    span{
     font-size: 15px;
     font-weight: bold;
-    color: #fff;
+    color: $bg-color-text;
    }
    .username{
     padding: 10px;
@@ -68,6 +52,9 @@
     background-color: gainsboro;
     outline-color: $bg-color-nav;
     margin-bottom: 10px;
+   }
+   .username:hover{
+    background-color: $bg-color-text;
    }
    .text{
     height: 5vh;
