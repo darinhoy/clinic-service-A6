@@ -626,9 +626,15 @@ h3 {
 .grid-container-footer .quick-link .magin-letter {
   margin: 10px;
 }
+.grid-container-footer .quick-link .let:hover {
+  text-decoration: underline;
+}
 
 .time-work .time {
   margin: 10px;
+}
+.time-work .times:hover {
+  text-decoration: underline;
 }
 
 .get-in-toch {
