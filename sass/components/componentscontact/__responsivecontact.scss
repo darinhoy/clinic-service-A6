@@ -4,14 +4,17 @@
        @include style-Nav;
         ul{
             margin-left: 67%;
-            margin-right: 70%
+            margin: 3px;
+            margin-right: -140px;
+            li a{
+                margin-right: 15px;
+            }
         }
         .logo,
         img {
-            color: #fff;
-           padding: 5px;
-           width: 350%;
-            margin-right: -23%;
+           width: 29%;
+           margin-left: -55px;
+           margin-right: -23%;
         }
     }
     
@@ -24,7 +27,7 @@
         .phone,
         .location {
             font-size: 13px;
-            height: 30vh;
+            height: 14vh;
             width: 80%;
             padding: 5%;
 
@@ -163,9 +166,12 @@
 
 .grid-container-footer {
     font-size: 16px;
-
+    
     .lg-footer {
+        margin-left: -10px;
         margin-top: -5px;
+    
     }
+    
 }
 

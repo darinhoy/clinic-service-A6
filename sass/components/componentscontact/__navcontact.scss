@@ -5,8 +5,8 @@ nav {
 
 .logo,img {
     color: #fff;
-    width: 170%;
-    margin-left: 10px;
+    width:22%;
+    margin-left: -60px;
     
 }
 
@@ -14,12 +14,15 @@ ul {
     padding: 5px;
     list-style: none;
     display: flex;
+    justify-content: space-around;
     flex-direction: row;
-    width: 100%;
+    width: 50%;
+
     #active{
         background: hsl(179, 77%, 53%);
         
     }
+    
 }
 
 
@@ -28,9 +31,8 @@ ul li a {
     flex-wrap: wrap;
     text-decoration: none;
     color: $bg-color-text;
-    padding: 8px 30px;
-    margin-right: 20px;
-    padding: 20px;
+    padding: 8px 20px;
+    padding: 15px;
     font-weight: bold;
     transition: all .3s cased;
 }
