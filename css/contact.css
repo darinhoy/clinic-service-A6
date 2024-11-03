@@ -143,11 +143,13 @@ ul li a:hover, ul li a:active {
   position: absolute;
   top: 177%;
   left: 29%;
+  color: gray;
 }
 .make-appointment form .user .people {
   position: absolute;
   top: 177%;
   left: 54.5%;
+  color: gray;
 }
 .make-appointment form .number-phone {
   margin-bottom: 10px;
@@ -156,11 +158,13 @@ ul li a:hover, ul li a:active {
   position: absolute;
   top: 184.4%;
   left: 28.7%;
+  color: gray;
 }
 .make-appointment form .number-phone .fa-lock {
   position: absolute;
   top: 184.5%;
   left: 54.4%;
+  color: gray;
 }
 .make-appointment form .email, .make-appointment form .message {
   margin-bottom: 10px;
@@ -310,7 +314,7 @@ td:nth-child(odd):hover {
   margin-top: 20px;
 }
 .feedback form .img {
-  background-image: url("/images/contact/image copy 4.png  ");
+  background-image: url("/images/contact/image copy 5.png");
   background-position: center;
   background-size: cover;
   margin-left: 20px;
