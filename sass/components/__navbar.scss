@@ -1,17 +1,20 @@
 @import"__mixins";
-nav {
+nav{
     background: $bg-navbar;
    @include text-center-nav;
+}
+nav img{
+    width: 100%;
 }
 ul {
     list-style-type: none;
     position: fixed;
-    display: flex;
     border-bottom:1px solid lightblue; 
+    display: flex;
     justify-content: space-between;
+    align-items: center;
     background:$bg-navbar ;
     width: 100%;
-    padding: 7px;
     #active{
         background: hsl(179, 77%, 53%);
         padding: 10px;
@@ -20,10 +23,10 @@ ul {
         display: flex;
     }
     li{
-        padding: 15px;
+        padding: 2px;
         img{
-            width: 70px;  
-            margin-top: -25px;       
+            width: 70px;
+            margin-left: 20px;
         }
     }
     li a {
@@ -31,7 +34,7 @@ ul {
         font-weight: bold;
         color: $color-nav;
         text-decoration: none;
-
+        margin-left: 50px;
     }
 }
 .list{
@@ -114,6 +117,8 @@ ul {
     }
 
 }
+
+@import"./_responsive";
 
 
 

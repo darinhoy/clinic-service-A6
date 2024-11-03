@@ -1,11 +1,8 @@
 // Responsive-Mobile
 @media(max-width:480px){
-    nav {
+    nav img{
+        width: 100%;    
         background: $bg-navbar;
-       @include text-center-nav;
-       a:hover{
-        text-decoration: underline;
-    }
     }
     ul {
         list-style-type: none;
@@ -18,26 +15,20 @@
             display: flex;
 
             li a {
-                font-size: 10px; 
+                font-size: 8px; 
                 color: $color-nav;
                 text-decoration: none;
         
             }
         }
         li{
+            padding: 1px;
             img{
-                width: 50px;  
-                margin-top: -23px;       
+                width: 20px;  
+                margin-top: -6px;       
             }
         }
       
-    }
-    .service h1{
-        font-size: 15px;
-        background: #808cc2;
-        padding: 20px;
-        opacity: 0.8;
-        margin-top: -30px;
     }
     .list{
         h1{
@@ -211,20 +202,16 @@
         }
         
     }
-
-    // footer
-
     .grid-container-footer{
         display: grid;
         grid-template-columns: repeat(3,1fr);
         padding: 10px;
         margin-top: 20px;
         background:     #232b52;
-        color: white;
+        color: $color-nav;
         width: 100%;
-            .logo-footer{
-                margin-left: -20px;
-    
+        .logo-footer{
+            margin-left: -20px;
             .button-footer{
                 display: none;
             }
@@ -232,26 +219,20 @@
                 display: none;
             }
         }
-        .quick-link{
-            font-size: 10px;
-            margin-left: -10px;
-
-        }
-        .time-work{
-            font-size: 10px;
-            margin-left: -10px;
+        .quick-link, .time-work, .get-in-toch{
+            @include footer;
+            margin-left: -20px;
         }
         .get-in-toch{
-            font-size: 10px;
-            margin-left: -20px;
             .bt-footer{
-               display: none;
+                display: none;
             }
         }
-}
+    }
 }
 @media(max-width:768px){
-    nav {
+    nav img{
+        width: 100%;
         background: $bg-navbar;
       
        @include text-center-nav;
@@ -527,12 +508,10 @@
     
 }
 @media(max-width:1200px){
-    nav {
+    nav img{
+        width: 100%;
         background: $bg-navbar;
        @include text-center-nav;
-       a:hover{
-        text-decoration: underline;
-    }
     }
     ul {
         list-style-type: none;
