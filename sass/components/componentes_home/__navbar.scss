@@ -1,0 +1,91 @@
+@import"_mixin";
+nav{
+    background-image: url(/images/home/img3.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: $bg-color;
+    z-index: 1;
+    
+    ul{
+        display: flex;
+        justify-content: flex-end;
+        background-color: $bg-color;
+        opacity: 0.9;
+        font-size: 25px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+        position: fixed;
+        top: 0;
+        z-index: 1;
+        padding: 10px;
+        .logos{
+            list-style-type: none;
+            img{
+                position: absolute;
+                top: -5px;
+                left: 20px;
+                width: 70px;
+            }
+        }
+        .link{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            width: 50%;
+        
+            li{
+                list-style-type: none;
+                @include center();
+                a{
+                    text-decoration: none;
+                    color: $text-color;  
+                }  
+            }
+        }
+    }
+    .paragrab{
+        background: $bg-color;
+        opacity: 0.8;
+        padding-top: 20px;
+        height: 67vh;
+        h1{
+            margin: 110px 20px 0;
+            font-size: 30px;
+        }
+        button{
+            margin: 5px 20px;
+            padding: 10px;
+            width: 150px;
+            height: 10vh;
+            border-radius: 20px;
+            border: none;
+            color: $text-color;
+            background-color: hsla(180, 97%, 48%, 0.74);
+            font-size: 20px;
+            cursor: pointer;
+        }
+        button:hover{
+            transform: translateX(5px);
+            transition: 0.6s;
+            font-weight: bold;
+
+        }
+        p{
+            width: 50%  ;
+            font-size: 20px;
+            margin: 5px 20px;
+        }
+    }
+        .doctor{
+            width: 270px;
+            position: absolute;
+            top: 107px;
+            left: 70%;
+            
+        }
+ 
+    }
+    #active{
+        background: #2be3e0;
+        padding: 10px;
+    }
