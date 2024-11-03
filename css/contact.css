@@ -18,36 +18,40 @@ nav {
   position: fixed;
   width: 100%;
   border-bottom: 1px solid #fff;
+  font-family: sans-serif;
 }
 nav ul {
+  font-size: 20px;
   margin-left: 67%;
+  margin: 2px;
+  width: 50%;
+  margin-right: -140px;
 }
 
 .logo, img {
   color: #fff;
-  width: 170%;
-  margin-left: 10px;
+  width: 22%;
+  margin-left: -60px;
 }
 
 ul {
   padding: 5px;
   list-style: none;
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
-  width: 100%;
+  width: 50%;
 }
 ul #active {
   background: hsl(179, 77%, 53%);
 }
 
 ul li a {
-  display: flex;
-  flex-wrap: wrap;
+  font-family: sans-serif;
   text-decoration: none;
   color: #fff;
-  padding: 8px 30px;
-  margin-right: 20px;
-  padding: 20px;
+  padding: 8px 20px;
+  padding: 15px;
   font-weight: bold;
   transition: all 0.3s cased;
 }
@@ -224,7 +228,8 @@ button a {
 .application .app img {
   width: 10%;
   vertical-align: middle;
-  margin-right: 10px;
+  margin-left: 8px;
+  padding: 2px;
 }
 .application .app:hover {
   transform: translateY(-5px);
@@ -437,19 +442,27 @@ td:nth-child(odd):hover {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #fff;
+    font-family: sans-serif;
+  }
+  nav ul {
+    font-size: 20px;
+    margin-left: 67%;
+    margin: 2px;
+    width: 50%;
+    margin-right: -140px;
   }
   nav ul {
     margin-left: 67%;
+    margin: 3px;
+    margin-right: -140px;
   }
-  nav ul {
-    margin-left: 67%;
-    margin-right: 70%;
+  nav ul li a {
+    margin-right: 15px;
   }
   nav .logo,
   nav img {
-    color: #fff;
-    padding: 5px;
-    width: 350%;
+    width: 29%;
+    margin-left: -55px;
     margin-right: -23%;
   }
   .follow {
@@ -460,7 +473,7 @@ td:nth-child(odd):hover {
   .follow .phone,
   .follow .location {
     font-size: 13px;
-    height: 30vh;
+    height: 14vh;
     width: 80%;
     padding: 5%;
   }
@@ -558,6 +571,7 @@ td:nth-child(odd):hover {
   font-size: 16px;
 }
 .grid-container-footer .lg-footer {
+  margin-left: -10px;
   margin-top: -5px;
 }
 
@@ -570,20 +584,30 @@ td:nth-child(odd):hover {
     position: fixed;
     width: 100%;
     border-bottom: 1px solid #fff;
+    font-family: sans-serif;
   }
   nav ul {
+    font-size: 20px;
     margin-left: 67%;
+    margin: 2px;
+    width: 50%;
+    margin-right: -140px;
   }
   nav ul {
-    margin-left: 50%;
-    margin-right: -50%;
     font-size: 13px;
-    margin: 5px;
+    margin: 2px;
+    margin-right: -20px;
+    width: 100%;
+    margin-left: -90px;
+  }
+  nav ul li a {
+    margin-right: 15px;
   }
   .logo,
   img {
     color: #fff;
-    width: 500%;
+    width: 40%;
+    margin: 2px;
     margin-right: 15%;
   }
   .logo ul,
@@ -613,7 +637,7 @@ td:nth-child(odd):hover {
   .follow .phone,
   .follow .location {
     font-size: 13px;
-    height: 25vh;
+    height: 15vh;
     width: 50%;
     margin-left: 70px;
     margin-bottom: 20px;
@@ -636,7 +660,7 @@ td:nth-child(odd):hover {
   }
   .content-pointment .make-appointment {
     width: 70%;
-    height: 65vh;
+    height: 55vh;
   }
   .content-pointment .make-appointment h3 {
     color: #fff;
@@ -703,6 +727,7 @@ td:nth-child(odd):hover {
   }
   .feedback .rigth {
     color: #fff;
+    height: 55vh;
     margin-top: -10px;
     width: 100%;
     margin-left: 70px;
