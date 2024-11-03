@@ -1,0 +1,55 @@
+.grid-container-footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2d3153;
+  .logo-footer{
+    .lg-footer{
+        img{
+            width: 100px;
+        }
+    }
+    .magin{
+        margin: 5px;
+    }
+    .button-footer{
+        width: 100px;
+        font-size: 15px;
+        padding: 10px;
+        border-radius: 10px;
+        border: none;
+        background-color: $bg-color;
+        color: $text-color;
+        cursor: pointer;
+    }
+  }
+  .quick-link{
+    .magin-letter{
+        margin: 10px;
+    }
+  }
+}
+.time-work{
+ 
+    .time{
+        margin: 10px;
+    }
+}
+.get-in-toch{
+    button{
+        color: #000;
+    }
+    margin-top: 35px;
+    h3{
+        padding-right: 55px;
+    }
+    .toch{
+        margin: 10px;
+    }
+}
+#active{
+    background: hsl(179, 77%, 53%);
+    padding: 10px;
+}
+
+

@@ -13,7 +13,8 @@ img{
 }
 }
 .card:hover{
-    background: #2c89d8;
+    background: $bg-color;
+    z-index: 1;
     img{
         transform: translateY(-5px);
         transition: 0.6s;
@@ -45,7 +46,8 @@ img{
 }
 }
 .picher:hover{
-    background: #2c89d8;
+    background: $bg-color;
+    z-index: 1;
     img{
         transform: translateY(-5px);
         transition: 0.6s;
