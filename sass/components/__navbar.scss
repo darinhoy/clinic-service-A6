@@ -4,6 +4,8 @@ nav{
    @include text-center-nav;
 }
 nav img{
+
+
     width: 100%;
 }
 ul {
@@ -21,6 +23,7 @@ ul {
     }
     .hello{
         display: flex;
+        
         justify-content: space-around;
         width: 50%;
     }
