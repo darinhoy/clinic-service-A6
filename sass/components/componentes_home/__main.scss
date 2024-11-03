@@ -1,4 +1,4 @@
-@import"mixink.scss";
+@import"_mixin";
 .card{
     background: $text-color;
     @include center();

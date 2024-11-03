@@ -1,4 +1,4 @@
-@import"mixink.scss";
+@import"_mixin";
 @media(min-width:768px) and (max-width:1024px){
     nav{
         width: 100%;
@@ -373,8 +373,8 @@
 // Responsive-Mobile
 @media(max-width:480px){
     nav {
-        background: $bg-navbar;
-       @include text-center-nav;
+        background: $bg-color;
+       @include center;
        a:hover{
         text-decoration: underline;
     }
@@ -391,7 +391,7 @@
 
             li a {
                 font-size: 10px; 
-                color: $color-nav;
+                color: $text-color;
                 text-decoration: none;
         
             }

@@ -1,4 +1,3 @@
-@charset "UTF-8";
 nav {
   background-image: url(/images/home/img3.png);
   background-repeat: no-repeat;
@@ -147,7 +146,7 @@ nav .doctor {
   }
   nav .paragrab {
     width: 100%;
-    height: 36vh;
+    height: 30vh;
   }
   nav .paragrab h1 {
     font-size: 20px;
@@ -672,6 +671,89 @@ h3 {
   }
   .get-in-toch p {
     font-size: 10px;
+  }
+}
+@media (max-width: 480px) {
+  nav {
+    background: #5c6594;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+  }
+  ul #active {
+    background: hsl(179, 77%, 53%);
+  }
+  ul .hello {
+    display: flex;
+  }
+  ul .hello li a {
+    font-size: 10px;
+    color: #fff;
+    text-decoration: none;
+  }
+  ul li img {
+    width: 50px;
+    margin-top: -23px;
+  }
+  .service h1 {
+    font-size: 15px;
+    background: #808cc2;
+    padding: 20px;
+    opacity: 0.8;
+    margin-top: -30px;
+  }
+  .list {
+    margin-top: 20px;
+    text-decoration: underline;
+    margin-left: 70px;
+  }
+  .list h1 {
+    font-size: 20px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    grid-gap: 40px;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  .grid-container .item {
+    display: flex;
+    margin-left: 40%;
+  }
+  .grid-container .item span {
+    margin-left: 20px;
+    font-size: 10px;
+  }
+  .parnership h1 {
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .parnership .par-p {
+    font-size: 5px;
+    margin-top: 20px;
+    margin: 20px;
+    text-align: justify;
+  }
+  .logo-partnership {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .logo-partnership .logo-1 img {
+    display: flex;
+    width: 30px;
+    border-radius: 100%;
+    margin-left: 40px;
   }
 }
 * {

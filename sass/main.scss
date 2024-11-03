@@ -1,8 +1,8 @@
-@import"components/_variblek";
-@import"components/_navbark";
-@import"components/mixink.scss";
-@import"components/_maink";
-@import"components/_responsive";
+@import"./components/componentes_home/_varible";
+@import"./components/componentes_home/_navbar";
+@import"./components/componentes_home/_mixin";
+@import"./components/componentes_home/_main";
+@import"./components/componentes_home/_responsive";
 *{
     margin: 0;
     padding: 0;
@@ -115,17 +115,3 @@
            
         }
     }
-
-
-   
-   
- 
-  
-
-*{
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-@import"components/_variable";
-@import"components/_navbar";
