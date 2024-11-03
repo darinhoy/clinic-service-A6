@@ -21,6 +21,8 @@ ul {
     }
     .hello{
         display: flex;
+        justify-content: space-around;
+        width: 50%;
     }
     li{
         padding: 2px;

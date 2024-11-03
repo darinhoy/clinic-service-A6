@@ -12,9 +12,13 @@
             background: hsl(179, 77%, 53%);
             }
         .hello{
+            position: absolute;
             display: flex;
+            left: 50px;
+            width: 10%;
 
             li a {
+                
                 font-size: 8px; 
                 color: $color-nav;
                 text-decoration: none;

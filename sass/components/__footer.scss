@@ -18,6 +18,9 @@
             border-radius: 5px;
             margin-left: 20px;
         }
+        .button-footer:hover{
+            background: #6f7699;
+        }
         .lg-footer img{
             margin-bottom: 10px;
             width: 90px;
@@ -27,6 +30,9 @@
         }
     }
     .quick-link, .time-work, .get-in-toch{
+        P:hover{
+            text-decoration: underline;
+        }
         @include footer;
     }
     .get-in-toch{
@@ -39,6 +45,9 @@
             margin: 10px;
             border-radius: 5px;
             margin-left: -1px;
+        }
+        .bt-footer:hover{
+            background: #6f7699;
         }
     }
 }
