@@ -10,7 +10,6 @@ ul {
     border-bottom:1px solid lightblue; 
     justify-content: space-between;
     background:$bg-navbar ;
-    height: 10vh;
     width: 100%;
     padding: 7px;
     #active{
@@ -34,14 +33,6 @@ ul {
         text-decoration: none;
 
     }
-}
-.service h1{
-    position: absolute ;
-    top: 35%;
-    background: #808cc2;
-    padding: 20px;
-    left: 20px;
-    opacity: 0.8;
 }
 .list{
     margin-top: 20px;

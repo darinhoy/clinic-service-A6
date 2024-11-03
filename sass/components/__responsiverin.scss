@@ -253,6 +253,7 @@
 @media(max-width:768px){
     nav {
         background: $bg-navbar;
+      
        @include text-center-nav;
        a:hover{
         text-decoration: underline;
@@ -266,7 +267,9 @@
             img{
                 width: 55px;
                 margin-left: 1px;
+                
             }
+           
         }
         .hello{
             display: flex;
