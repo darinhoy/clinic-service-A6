@@ -78,101 +78,6 @@ nav .doctor {
   left: 70%;
 }
 
-@media (min-width: 768px) and (max-width: 1024px) {
-  nav {
-    width: 100%;
-    height: 10px;
-  }
-  nav ul .logos img {
-    position: absolute;
-    width: 100px;
-    top: 10px;
-  }
-  nav ul li {
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav ul li a {
-    text-decoration: none;
-    color: #fff;
-  }
-  nav .paragrab {
-    background: #5c6594;
-    opacity: 0.8;
-    padding-top: 20px;
-    height: 48.2vh;
-  }
-  nav .paragrab h1 {
-    margin-top: 150px;
-    font-size: 30px;
-  }
-  nav .paragrab button {
-    margin: 20px;
-    height: 50px;
-  }
-  nav .paragrab p {
-    width: 50%;
-    font-size: 20px;
-    margin: 5px 20px;
-  }
-  nav .doctor {
-    width: 290px;
-    position: absolute;
-    top: 177px;
-    left: 60%;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  nav {
-    width: 100%;
-  }
-  nav ul {
-    width: 70%;
-    padding: 5px;
-  }
-  nav ul .logos img {
-    width: 15%;
-    position: absolute;
-    top: 3px;
-  }
-  nav .link {
-    height: 10vh;
-  }
-  nav .link li a {
-    margin: 10px;
-    font-size: 15px;
-  }
-  nav .paragrab {
-    width: 100%;
-    height: 30vh;
-  }
-  nav .paragrab h1 {
-    font-size: 20px;
-  }
-  nav .paragrab p {
-    width: 280px;
-    display: none;
-  }
-  nav .paragrab button {
-    font-size: 15px;
-    width: 100px;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav .paragrab p {
-    font-size: 10px;
-  }
-  nav .doctor {
-    position: absolute;
-    left: 200px;
-    top: 96px;
-    width: 33%;
-  }
-}
 .card {
   background: #fff;
   display: flex;
@@ -389,57 +294,6 @@ h3 {
     top: 177px;
     left: 60%;
   }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-  nav {
-    width: 100%;
-  }
-  nav ul {
-    width: 70%;
-    padding: 5px;
-  }
-  nav ul .logos img {
-    width: 15%;
-    position: absolute;
-    top: 3px;
-  }
-  nav .link {
-    height: 10vh;
-  }
-  nav .link li a {
-    margin: 10px;
-    font-size: 15px;
-  }
-  nav .paragrab {
-    width: 100%;
-    height: 36vh;
-  }
-  nav .paragrab h1 {
-    font-size: 20px;
-  }
-  nav .paragrab p {
-    width: 280px;
-    display: none;
-  }
-  nav .paragrab button {
-    font-size: 15px;
-    width: 100px;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav .paragrab p {
-    font-size: 10px;
-  }
-  nav .doctor {
-    position: absolute;
-    left: 200px;
-    top: 96px;
-    width: 33%;
-  }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
   .card {
     width: 95%;
     margin-top: -190px;
@@ -503,8 +357,94 @@ h3 {
     width: 200px;
     height: 200px;
   }
+  .grid-container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 30vh;
+  }
+  .grid-container-footer .logo-footer .button-footer {
+    font-size: 20px;
+    width: 150px;
+    border-radius: 15px;
+  }
+  .grid-container-footer .quick-link {
+    margin-bottom: 30px;
+  }
+  .grid-container-footer .quick-link h3 {
+    font-size: 30px;
+  }
+  .grid-container-footer .quick-link p {
+    font-size: 20px;
+  }
+  .time-work {
+    margin-bottom: 30px;
+  }
+  .time-work h3 {
+    font-size: 30px;
+  }
+  .time-work h3 p {
+    font-size: 20px;
+  }
+  .get-in-toch {
+    margin-bottom: 33px;
+  }
+  .get-in-toch h3 {
+    font-size: 30px;
+  }
+  .get-in-toch p {
+    font-size: 20px;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
+  nav {
+    width: 100%;
+  }
+  nav ul {
+    width: 70%;
+    padding: 5px;
+  }
+  nav ul .logos img {
+    width: 15%;
+    position: absolute;
+    top: 3px;
+  }
+  nav .link {
+    height: 10vh;
+  }
+  nav .link li a {
+    margin: 10px;
+    font-size: 15px;
+  }
+  nav .paragrab {
+    width: 100%;
+    height: 36vh;
+  }
+  nav .paragrab h1 {
+    font-size: 20px;
+  }
+  nav .paragrab p {
+    width: 280px;
+    display: none;
+  }
+  nav .paragrab button {
+    font-size: 15px;
+    width: 100px;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  nav .paragrab p {
+    font-size: 10px;
+  }
+  nav .doctor {
+    position: absolute;
+    left: 200px;
+    top: 96px;
+    width: 33%;
+  }
   .card {
     width: 90%;
     margin-top: -180px;
@@ -588,49 +528,6 @@ h3 {
   .time-work p {
     font-size: 10px;
   }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
-  .grid-container-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 30vh;
-  }
-  .grid-container-footer .logo-footer .button-footer {
-    font-size: 20px;
-    width: 150px;
-    border-radius: 15px;
-  }
-  .grid-container-footer .quick-link {
-    margin-bottom: 30px;
-  }
-  .grid-container-footer .quick-link h3 {
-    font-size: 30px;
-  }
-  .grid-container-footer .quick-link p {
-    font-size: 20px;
-  }
-  .time-work {
-    margin-bottom: 30px;
-  }
-  .time-work h3 {
-    font-size: 30px;
-  }
-  .time-work h3 p {
-    font-size: 20px;
-  }
-  .get-in-toch {
-    margin-bottom: 33px;
-  }
-  .get-in-toch h3 {
-    font-size: 30px;
-  }
-  .get-in-toch p {
-    font-size: 20px;
-  }
-}
-@media (min-width: 320px) and (max-width: 480px) {
   .grid-container-footer {
     display: flex;
     justify-content: center;
@@ -671,89 +568,6 @@ h3 {
   }
   .get-in-toch p {
     font-size: 10px;
-  }
-}
-@media (max-width: 480px) {
-  nav {
-    background: #5c6594;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-  ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between;
-  }
-  ul #active {
-    background: hsl(179, 77%, 53%);
-  }
-  ul .hello {
-    display: flex;
-  }
-  ul .hello li a {
-    font-size: 10px;
-    color: #fff;
-    text-decoration: none;
-  }
-  ul li img {
-    width: 50px;
-    margin-top: -23px;
-  }
-  .service h1 {
-    font-size: 15px;
-    background: #808cc2;
-    padding: 20px;
-    opacity: 0.8;
-    margin-top: -30px;
-  }
-  .list {
-    margin-top: 20px;
-    text-decoration: underline;
-    margin-left: 70px;
-  }
-  .list h1 {
-    font-size: 20px;
-  }
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(2, 3fr);
-    grid-gap: 40px;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  .grid-container .item {
-    display: flex;
-    margin-left: 40%;
-  }
-  .grid-container .item span {
-    margin-left: 20px;
-    font-size: 10px;
-  }
-  .parnership h1 {
-    font-size: 20px;
-    margin-top: 20px;
-    text-align: center;
-  }
-  .parnership .par-p {
-    font-size: 5px;
-    margin-top: 20px;
-    margin: 20px;
-    text-align: justify;
-  }
-  .logo-partnership {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .logo-partnership .logo-1 img {
-    display: flex;
-    width: 30px;
-    border-radius: 100%;
-    margin-left: 40px;
   }
 }
 * {

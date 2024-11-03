@@ -51,64 +51,6 @@
             }
      
     }
-}
-@media (min-width: 320px) and (max-width: 480px) {
-    nav{
-        width: 100%;
-        ul{
-            width: 70%;
-            padding: 5px;
-            .logos{
-                img{
-                    width: 15%;
-                    position: absolute;
-                    top: 3px;
-                }
-            }
-        }
-        .link{
-            height: 10vh;
-            
-            li{        
-                a{
-                    margin: 10px;
-                    font-size: 15px; 
-                    
-                }
-                
-            }  
-        }
-        .paragrab{
-            width: 100%;
-            height:36vh;
-            h1{
-                font-size: 20px;
-            }
-            p{
-                width: 280px;
-                display: none;
-            }
-            button{
-                font-size: 15px;
-                width: 100px;
-                height: 5vh;
-                @include center();
-            }
-            p{
-                font-size: 10px;
-            }
-        }
-        .doctor{
-            position: absolute;
-            left: 200px;
-            top: 96px;
-            width: 33%;
-        }
-        
-    }
-}
-
-@media (min-width:768px) and (max-width: 1024px){
     .card{
         width: 95%;
         margin-top: -190px;
@@ -177,8 +119,105 @@
     }
     
     }
+    .grid-container-footer{
+        @include center ();
+        width: 100%;
+        height: 30vh;
+       
+       .logo-footer{
+         .button-footer{
+            font-size: 20px;
+            width: 150px;
+            border-radius: 15px;
+         }
+       }
+       .quick-link{
+            margin-bottom: 30px;
+            h3{
+                font-size: 30px;
+             }
+             p{
+                font-size: 20px;
+             }
+       }
+     }
+     .time-work{
+        margin-bottom: 30px;
+         h3{
+             font-size: 30px;
+             p{
+                font-size: 20px;
+             }
+         }
+     }
+     .get-in-toch{
+        margin-bottom: 33px;
+         h3{
+             font-size: 30px;
+            
+         
+         }
+         p{
+            font-size: 20px;
+         }
+        
+     }
 }
-@media (min-width:320px) and (max-width: 480px){
+
+@media (min-width: 320px) and (max-width: 480px) {
+    nav{
+        width: 100%;
+        ul{
+            width: 70%;
+            padding: 5px;
+            .logos{
+                img{
+                    width: 15%;
+                    position: absolute;
+                    top: 3px;
+                }
+            }
+        }
+        .link{
+            height: 10vh;
+            
+            li{        
+                a{
+                    margin: 10px;
+                    font-size: 15px; 
+                    
+                }
+                
+            }  
+        }
+        .paragrab{
+            width: 100%;
+            height:36vh;
+            h1{
+                font-size: 20px;
+            }
+            p{
+                width: 280px;
+                display: none;
+            }
+            button{
+                font-size: 15px;
+                width: 100px;
+                height: 5vh;
+                @include center();
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+        .doctor{
+            position: absolute;
+            left: 200px;
+            top: 96px;
+            width: 33%;
+        }
+        
+    }
     .card{
         width: 90%;
         margin-top: -180px;
@@ -273,55 +312,6 @@
             font-size: 10px;
         }
     }
-}
-
-
-@media(min-width:768px) and (max-width: 1024px){
-    .grid-container-footer{
-        @include center ();
-        width: 100%;
-        height: 30vh;
-       
-       .logo-footer{
-         .button-footer{
-            font-size: 20px;
-            width: 150px;
-            border-radius: 15px;
-         }
-       }
-       .quick-link{
-            margin-bottom: 30px;
-            h3{
-                font-size: 30px;
-             }
-             p{
-                font-size: 20px;
-             }
-       }
-     }
-     .time-work{
-        margin-bottom: 30px;
-         h3{
-             font-size: 30px;
-             p{
-                font-size: 20px;
-             }
-         }
-     }
-     .get-in-toch{
-        margin-bottom: 33px;
-         h3{
-             font-size: 30px;
-            
-         
-         }
-         p{
-            font-size: 20px;
-         }
-        
-     }
-}
-@media (min-width: 320px) and (max-width:480px){
     .grid-container-footer{
         @include center ();
         width: 100%;
@@ -370,95 +360,5 @@
         
      }
 }
-// Responsive-Mobile
-@media(max-width:480px){
-    nav {
-        background: $bg-color;
-       @include center;
-       a:hover{
-        text-decoration: underline;
-    }
-    }
-    ul {
-        list-style-type: none;
-        display: flex;
-        justify-content: space-between;
-        #active{
-            background: hsl(179, 77%, 53%);
-            }
-        .hello{
-            display: flex;
 
-            li a {
-                font-size: 10px; 
-                color: $text-color;
-                text-decoration: none;
-        
-            }
-        }
-        li{
-            img{
-                width: 50px;  
-                margin-top: -23px;       
-            }
-        }
-      
-    }
-    .service h1{
-        font-size: 15px;
-        background: #808cc2;
-        padding: 20px;
-        opacity: 0.8;
-        margin-top: -30px;
-    }
-    .list{
-        h1{
-            font-size: 20px;
-        }
-        margin-top: 20px;
-        text-decoration: underline;
-        margin-left: 70px;
-    }
-    .grid-container{
-        display: grid;
-        grid-template-columns: repeat(2,3fr);
-        grid-gap: 40px;
-        padding: 10px;
-        margin-top: 20px;
-    
-       .item{
-        display: flex;
-        margin-left: 40%;
-    
-         span{
-            margin-left: 20px;
-            font-size: 10px;
-        }
-       }
-    }
-    .parnership {
-        h1{
-            font-size: 20px;
-            margin-top: 20px;
-            text-align: center;
-        }
-        .par-p{
-            font-size: 5px;
-            margin-top: 20px;
-            margin: 20px;
-            text-align: justify;
-        }
-    }
-    .logo-partnership{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
 
-        .logo-1 img{
-            display: flex;
-            width:30px;
-            border-radius: 100%;
-            margin-left: 40px;
-        }
-    }
-}
