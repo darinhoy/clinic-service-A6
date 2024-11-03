@@ -1,3 +1,4 @@
+@import"../mixincontact/__mixinlocation";
 .map{
     iframe{
         width: 100%;
@@ -15,16 +16,7 @@
     
     .mail ,.phone, .location{
         // border: 1px solid black;
-        width: 70%;
-        padding: 5%;
-        border-radius: 20px;
-        margin-left: 35px;
-        background-color:#fff;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-        a{
-            text-decoration: none;
-            color: black;
-        }
+       @include card-location();
 
     }
     .location:hover{
@@ -32,6 +24,7 @@
         color: #fff;
     }
     .mail:hover{
+        
         background: $bg-color-table;
     }
     .phone:hover{

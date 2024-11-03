@@ -19,7 +19,6 @@ td,
 th {
     color: #fff;
     border: 1px solid #dddddd;
-    text-align: left;
     padding: 8px;
     width: 12.85%;
     text-align: center;
@@ -32,4 +31,10 @@ td{
     background-color: $bg-color-table;
     color: #fff;
     font-size: 13px;
+}
+td:nth-child(even):hover{
+    background-color: rgb(108, 208, 241);
+}
+td:nth-child(odd):hover{
+    background-color: $bg-color-footer;
 }
