@@ -2,9 +2,8 @@ nav {
   background-image: url(/images/home/img3.png);
   background-repeat: no-repeat;
   background-size: 100%;
-}
-nav label input {
-  display: none;
+  background-color: #2c89d8;
+  z-index: 1;
 }
 nav ul {
   display: flex;
