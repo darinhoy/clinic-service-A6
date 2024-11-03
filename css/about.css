@@ -2179,6 +2179,9 @@ ul li a {
   border-radius: 5px;
   margin-left: 20px;
 }
+.grid-container-footer .logo-footer .button-footer:hover {
+  background: #6f7699;
+}
 .grid-container-footer .logo-footer .lg-footer img {
   margin-bottom: 10px;
   width: 90px;
@@ -2191,6 +2194,9 @@ ul li a {
   row-gap: 10px;
   margin: 10px;
 }
+.grid-container-footer .quick-link P:hover, .grid-container-footer .time-work P:hover, .grid-container-footer .get-in-toch P:hover {
+  text-decoration: underline;
+}
 .grid-container-footer .get-in-toch .bt-footer {
   border: none;
   font-weight: bold;
@@ -2200,6 +2206,9 @@ ul li a {
   margin: 10px;
   border-radius: 5px;
   margin-left: -1px;
+}
+.grid-container-footer .get-in-toch .bt-footer:hover {
+  background: #6f7699;
 }
 
 @media (max-width: 480px) {
