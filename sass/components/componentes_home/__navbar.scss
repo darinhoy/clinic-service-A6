@@ -5,6 +5,7 @@ nav{
     background-size: 100%;
     background-color: $bg-color;
     z-index: 1;
+    
     ul{
         display: flex;
         justify-content: flex-end;
@@ -12,6 +13,7 @@ nav{
         opacity: 0.9;
         font-size: 25px;
         width: 100%;
+        border-bottom: 1px solid #fff;
         position: fixed;
         top: 0;
         z-index: 1;
@@ -19,7 +21,6 @@ nav{
         .logos{
             list-style-type: none;
             img{
-                
                 position: absolute;
                 top: -5px;
                 left: 20px;
@@ -66,6 +67,8 @@ nav{
         button:hover{
             transform: translateX(5px);
             transition: 0.6s;
+            font-weight: bold;
+
         }
         p{
             width: 50%  ;
@@ -81,4 +84,8 @@ nav{
             
         }
  
+    }
+    #active{
+        background: #2be3e0;
+        padding: 10px;
     }

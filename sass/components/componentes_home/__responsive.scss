@@ -53,15 +53,14 @@
     }
     .card{
         width: 95%;
-        margin-top: 100px;
+        margin-top: 40px;
         img{
-            width: 98%;
-            padding: 10px;
+            width: 95%;
             
         }
     }
     main{
-        width: 90%;
+        width: 92%;
        
         h3{
             font-size: 30 px;
@@ -69,12 +68,14 @@
         p{
             width: 100%;
             font-size: 30px;
+            margin-left: 15px;
         }
     }
     .picher{
         width: 95%;
+        margin-top: 30px;
         img{
-            width: 98%;
+            width: 95%;
         }
     }
     .our{
@@ -100,8 +101,10 @@
             font-size: 30px;
         }
         p{
-            
+            text-align: justify;
             font-size: 30px;
+            margin-left: 35px;
+           
         }
     }
     .cardes{
@@ -228,14 +231,14 @@
     }
     main{
         margin: 0 auto;
-        width: 80%;
+        width: 86%;
         margin-top: -40px;
         p{
-            width: 90%;
+            width: 100%;
             font-size: 20px;
         }
         h3{
-            font-size: 30px;
+            font-size: 20px;
         }
     }
     .picher{
@@ -248,13 +251,16 @@
     }
     .our{
         margin: 0 auto;
-        width: 80%;
+        width: 86%;
         margin-top: -40px;
-
+        h3{
+            font-size: 20px;
+        }
   
         p{
             width: 100%;
             font-size: 20px;
+    
         }
     }
     .our-value{
@@ -273,6 +279,12 @@
     .team{
         width: 90%;
         margin: 0 auto;
+        h3{
+            font-size: 20px;
+        }
+        p{
+            text-align: justify;
+        }
     }
     .cardes{
         display: flex;
@@ -311,6 +323,7 @@
         }
         p{
             font-size: 10px;
+
         }
     }
     .grid-container-footer{
